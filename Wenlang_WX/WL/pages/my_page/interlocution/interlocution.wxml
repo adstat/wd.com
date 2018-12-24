@@ -1,0 +1,166 @@
+<!--pages/my_page/interlocution/interlocution.wxml-->
+<view class='head'>
+  <image class='back_img' src='../../../image/my/beijing.png'></image>
+  <view class='head_z'>
+    <image class='head_fx' src='../../../image/my/shangchuan.png'></image>
+    <view class='head_tx_box'>
+      <image class='head_tx' src='../../../image/viewpoint/cai.png'></image>
+      <image class='xingb' src='../../../image/my/nan.png'></image>
+    </view>
+    <view class='head_name'>胡晓曦</view>
+    <view class='head_zhiw'><text>中华航运公司</text><text>总经理</text></view>
+    <view class='head_xiangq'>燃油是船舶运输不可缺少的生命源泉。</view>
+    <view class='head_xiangq'>航行世界各国的远洋货轮大都以燃油为动力。</view>
+    <view class='head_caoz'>
+      <text bindtap='dzsz'>答主设置</text>
+    </view>
+  </view>
+</view>
+
+<view class='why'>
+  <view>
+    <view>打听</view>
+    <view class='why_teshu'>18</view>
+  </view>
+  <view>
+    <view>满意</view>
+    <view>18</view>
+  </view>
+  <view>
+    <view>不满意</view>
+    <view>/</view>
+  </view>
+</view>
+
+<view class='zx_tit'>
+  <view><text class="{{currentTab==0?'zx_tit_clear':''}}" data-current="0" bindtap="swichNav">收到的咨询</text></view>
+  <view><text class="{{currentTab==1?'zx_tit_clear':''}}" data-current="1" bindtap="swichNav">发起的咨询</text></view>
+  <view><text class="{{currentTab==2?'zx_tit_clear':''}}" data-current="2" bindtap="swichNav">打听的咨询</text></view>
+</view>
+<view current="{{currentTab}}" bindchange="switchTab">
+  <view class='content' class='content' wx:if='{{currentTab==0}}'>
+    <view class='boxs'>
+      <view class='boxs_top'>
+        <view class='boxs_top_left'>
+          <image class='boxs_top_img' src='../../../image/my/xuanzhong.png'></image>
+          <text class='boxs_top_text'>已付款</text>
+        </view>
+        <view class='huifu' bindtap='zixun'>回复</view>
+      </view>
+      <view class='sort_content_tit'>
+          <view class='sort_content_tit_left'>
+            <image src='../../../image/viewpoint/cai.png'></image>
+            <view class='xinxi'>
+              <view>
+                <span class="sort_content_name">倩小姐</span>
+                <span class="sort_content_zw">向你咨询</span>
+              </view>
+              <view>
+                <span class="time">18.10.15</span>
+                <span class="djs">还剩48小时过期</span>
+              </view>
+            </view>
+          </view>
+      </view>
+      <view class='wenti'>
+        问题：燃油是船舶运输不可缺少的生命源泉。航行世界各国的远洋货轮大都以燃油为动力，燃油在船舶消耗中所占的比重高达？
+      </view>
+      <view class='huifu_wt'>
+        回复：燃油是船舶运输不可缺少的生命源泉。航行世界各国的远洋货轮大都以燃油为动力，燃油在船舶消耗中所占的比重高达。
+      </view>
+    </view>
+    <view class='boxs'>
+      <view class='boxs_top'>
+        <view class='boxs_top_left'>
+          <image class='boxs_top_img' src='../../../image/my/xuanzhong1.png'></image>
+          <text class='boxs_top_text'>已退款</text>
+        </view>
+        <view class='huifu_1'>已过期</view>
+      </view>
+      <view class='sort_content_tit'>
+          <view class='sort_content_tit_left'>
+            <image src='../../../image/viewpoint/cai.png'></image>
+            <view class='xinxi'>
+              <view>
+                <span class="sort_content_name">倩小姐</span>
+                <span class="sort_content_zw">向你咨询</span>
+              </view>
+              <view>
+                <span class="time">18.10.15</span>
+                <span class="djs">还剩48小时过期</span>
+              </view>
+            </view>
+          </view>
+      </view>
+      <view class='wenti'>
+        问题：燃油是船舶运输不可缺少的生命源泉。航行世界各国的远洋货轮大都以燃油为动力，燃油在船舶消耗中所占的比重高达？
+      </view>
+      <view class='huifu_wt'>
+        回复：燃油是船舶运输不可缺少的生命源泉。航行世界各国的远洋货轮大都以燃油为动力，燃油在船舶消耗中所占的比重高达。
+      </view>
+    </view>
+  </view>
+  <view class='content' class='content' wx:if='{{currentTab==1}}'>
+    <view class='boxs'>
+      <view class='boxs_top'>
+        <view class='boxs_top_left'>
+          <image class='boxs_top_img' src='../../../image/my/xuanzhong.png'></image>
+          <text class='boxs_top_text'>已付款50元</text>
+        </view>
+        <view class='huifu_zx' bindtap='wait'>正在等答主回复</view>
+      </view>
+      <view class='sort_content_tit'>
+          <view class='sort_content_tit_left'>
+            <image src='../../../image/viewpoint/cai.png'></image>
+            <view class='xinxi'>
+              <view>
+                <span class="sort_content_name">倩小姐</span>
+                <span class="sort_content_zw">向你咨询</span>
+              </view>
+              <view>
+                <span class="time">18.10.15</span>
+                <span class="djs">还剩48小时过期</span>
+              </view>
+            </view>
+          </view>
+      </view>
+      <view class='wenti'>
+        问题：燃油是船舶运输不可缺少的生命源泉。航行世界各国的远洋货轮大都以燃油为动力，燃油在船舶消耗中所占的比重高达？
+      </view>
+      <view class='huifu_wt'>
+        回复：燃油是船舶运输不可缺少的生命源泉。航行世界各国的远洋货轮大都以燃油为动力，燃油在船舶消耗中所占的比重高达。
+      </view>
+    </view>
+    <view class='boxs'>
+      <view class='boxs_top'>
+        <view class='boxs_top_left'>
+          <image class='boxs_top_img' src='../../../image/my/xuanzhong1.png'></image>
+          <text class='boxs_top_text'>已退款</text>
+        </view>
+        <view class='huifu_1_zx'>已过期</view>
+      </view>
+      <view class='sort_content_tit'>
+          <view class='sort_content_tit_left'>
+            <image src='../../../image/viewpoint/cai.png'></image>
+            <view class='xinxi'>
+              <view>
+                <span class="sort_content_name">倩小姐</span>
+                <span class="sort_content_zw">向你咨询</span>
+              </view>
+              <view>
+                <span class="time">18.10.15</span>
+                <span class="djs">还剩48小时过期</span>
+              </view>
+            </view>
+          </view>
+      </view>
+      <view class='wenti'>
+        问题：燃油是船舶运输不可缺少的生命源泉。航行世界各国的远洋货轮大都以燃油为动力，燃油在船舶消耗中所占的比重高达？
+      </view>
+      <view class='huifu_wt'>
+        回复：燃油是船舶运输不可缺少的生命源泉。航行世界各国的远洋货轮大都以燃油为动力，燃油在船舶消耗中所占的比重高达。
+      </view>
+    </view>
+  </view>
+  <view class='content' class='content' wx:if='{{currentTab==2}}'>3</view>
+</view>

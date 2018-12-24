@@ -1,0 +1,119 @@
+{
+  "pages": [
+    "pages/my_page/interlocution/interlocution",
+    "pages/my_page/business_card/business_card",
+        
+    "pages/my_page/my/my",
+    "pages/index/index",
+    "pages/Detail/interlocution/interlocution",
+     
+    "pages/my_page/personal_data/personal_data",
+    "pages/my_page/work_list/work_list",
+    
+    "pages/my_page/education_list/education_list",
+    
+    "pages/Detail/add_ask/add_ask",
+    "pages/Detail/test/test",
+   
+    "pages/Detail/problem_description/problem_description",
+    "pages/Detail/all_publish/all_publish",
+    "pages/Detail/publish/publish",
+    "pages/login/login",
+    "pages/BindingPhone/BindingPhone",
+    "pages/Detail/user_install/user_install",
+    "pages/Detail/ask_detail/ask_detail",
+    "pages/Detail/ask/ask",
+    "pages/Detail/for_consult/for_consult",
+    "pages/information/information",
+    "pages/Detail/Issuetheme/Issuetheme",
+    "pages/Detail/write_answer/write_answer",
+    "pages/Detail/user_use/user_use",
+    "pages/Detail/Subdiscussion/Subdiscussion",
+    "pages/Detail/discussing/discussing",
+    "pages/Detail/question-detail/question-detail",
+    "pages/Detail/Paydetali/Paydetali",
+    "pages/Detail/Paydetali_list/Paydetali_list",
+    "pages/Detail/report/report",
+
+
+    "pages/my_page/consult_4_s/consult_4_s",
+    "pages/my_page/consult_3_s/consult_3_s",
+    "pages/my_page/consult_2_s/consult_2_s",
+    "pages/my_page/consult_1_s/consult_1_s",
+    "pages/my_page/reply/reply",
+    "pages/my_page/consult_4/consult_4",
+    "pages/my_page/consult_3/consult_3",
+    "pages/my_page/consult_2/consult_2",
+    "pages/my_page/consult_1/consult_1",
+    "pages/my_page/work_edit/work_edit",
+    "pages/my_page/work_add/work_add",
+ 
+    "pages/my_page/education_edit/education_edit",
+    "pages/my_page/education_add/education_add",
+
+    "pages/my_page/answer_master/answer_master",    
+
+    "pages/my_page/card_fit/card_fit",    
+
+    "pages/my_page/collection/collection",
+    "pages/my_page/extract/extract",    
+    "pages/my_page/money/money",
+    "pages/my_page/fans/fans",
+    "pages/my_page/follow/follow",
+    "pages/my_page/card/card",
+    "pages/my_page/describe/describe",
+    "pages/my_page/address/address",
+    "pages/my_page/post/post",
+    "pages/my_page/company/company",
+    "pages/my_page/mailbox/mailbox",
+    "pages/my_page/name/name",
+    "pages/my_page/nickname/nickname",
+    "pages/my_page/circle/circle",
+    "pages/my_page/cellphone/cellphone",
+    "pages/my_page/customer_service/customer_service",
+ 
+    "pages/viewpoint-box/issue_views/issue_views",
+    "pages/viewpoint-box/topic_details/topic_details",
+    "pages/viewpoint-box/viewpoint/viewpoint",
+    "pages/viewpoint-box/viewpoint_details/viewpoint_details"
+
+  ],
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#0084FF",
+    "borderStyle": "#e9e9e9",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/foot/da_hui.png",
+        "selectedIconPath": "images/foot/da.png",
+        "text": "问答"
+      },
+      {
+        "pagePath": "pages/viewpoint-box/viewpoint/viewpoint",
+        "iconPath": "images/foot/guan_hui.png",
+        "selectedIconPath": "images/foot/guan_y.png",
+        "text": "观点"
+      },
+      {
+        "pagePath": "pages/BindingPhone/BindingPhone",
+        "iconPath": "images/foot/xx_hui.png",
+        "selectedIconPath": "images/foot/xx_y.png",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/my_page/my/my",
+        "iconPath": "images/foot/wode_hui.png",
+        "selectedIconPath": "images/foot/wode_y.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  }
+}

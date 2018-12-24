@@ -1,0 +1,89 @@
+<!-- 用户咨询使用 -->
+
+<view style='margin-bottom:21rpx;'>
+  <view class='banner'>
+    <image src='/../images/index/beijing.png'></image>
+  </view>
+
+  <view class='mask_banner'>
+    <text class='iconfont icon-icon-test1' catchtap='share'></text>
+    <view class='main_center'>
+      <image src='/../images/index/cai.png'></image>
+      <image src='/../images/index/nv.png'></image>
+      <!-- <image src='/../images/index/nan.png'></image> -->
+
+      <view style='margin-top: 15rpx;'>易小姐</view>
+      <view class='tit'>
+        <text>中华航运公司</text>
+        <text class='zong'>总经理</text>
+      </view>
+      <text>燃油是船舶运输不可缺少的生命源泉。航行世界各国的远洋货轮大都以燃油为动力。</text>
+    </view>
+  </view>
+</view>
+
+<view class='pleased_w'>
+  <view class='pleased'>
+    <text>满意</text>
+    <text>18</text>
+  </view>
+  <view class='pleased'>
+    <text>不满意</text>
+    <text>18</text>
+  </view>
+</view>
+
+<view class='zixun' bindtap='for_other'>
+  50元，向他咨询
+</view>
+
+<view class='get'  bindtap='select' >
+  <view class='{{id == 0 ? "active_btn":""}}' data-id='0'>Ta收到的咨询20</view>
+  <view class='{{id == 1 ? "active_btn":""}}' data-id='1'>Ta发起的咨询50</view>
+</view>
+
+
+<!-- 内容 -->
+<view wx:if='{{nav_active == 0}}'>
+  <view class='center_answer'>
+    <image src='/../images/index/yi.png'></image>
+    <view class='huifu'>
+      <text>冯先生回复了咨询</text>
+      <text>中华航运公司 总经理</text>
+    </view>
+
+    <text class='p3'>燃油是船舶运输不可缺少的生命源泉。航行世界各国的远洋货轮大都以燃油为动力，燃油在船舶消燃油是船舶运输不可缺少的生命源泉？        </text>
+
+    <view class='hot'>
+
+      <text>100人打听</text>
+      <text>88人喜欢</text>
+      <view class='dating'>
+        <text>￥5元打听</text>
+      </view>
+    </view>
+  </view>
+  <!-- 第一段 -->
+  <view class='center_answer'>
+    <image src='/../images/index/yi.png'></image>
+    <view class='huifu'>
+      <text>冯先生回复了咨询</text>
+      <text>中华航运公司 总经理</text>
+    </view>
+
+    <text class='p3'>燃油是船舶运输不可缺少的生命源泉。 </text>
+
+    <view class='hot'>
+
+      <text>100人打听</text>
+      <text>88人喜欢</text>
+      <view class='dating'>
+        <text>￥5元打听</text>
+      </view>
+    </view>
+
+  </view>
+
+</view>
+
+<view wx:if='{{nav_active == 1}}'>2</view>

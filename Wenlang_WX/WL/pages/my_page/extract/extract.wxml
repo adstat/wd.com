@@ -1,0 +1,33 @@
+<!--pages/my_page/extract/extract.wxml-->
+
+<view class='box'>
+  <view class='title'>提现金额</view>
+  <view class='jiage'>
+    <text>￥</text>
+    <input type='number' placeholder="请输入价格"></input>
+  </view>
+  <view class='box_bottom'>
+    <view>账户余额:50.00元</view>
+    <view>全部提现</view>
+  </view>
+  <view class='zfb'>
+    <text>支付宝账号:</text>
+    <input placeholder='请输入正确的支付宝账号'></input>
+  </view>
+  <view class='zfb'>
+    <text>支付宝绑定姓名:</text>
+    <input placeholder='请输入正确的支付宝绑定姓名'></input>
+  </view>
+  <view class='tx'>提现</view>
+</view>
+
+
+<!-- 弹框 -->
+<view class='tk_bj' style='display:none'>
+  <view class='tk_box'>
+    <image class='erro' src='../../../image/viewpoint/erro.png'></image>
+    <image class='dx' src='../../../image/my/dui.png'></image>
+    <text>提现申请已提交,等待人工审核</text>
+    <view>完成</view>
+  </view>
+</view>

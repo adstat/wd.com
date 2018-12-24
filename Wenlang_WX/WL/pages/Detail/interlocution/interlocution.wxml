@@ -1,0 +1,116 @@
+<!-- 问答 -->
+<view>
+  <!-- 头部搜索 -->
+  <view class='top_serch'>
+    <image src='/../images/index/icon_ss.png'></image>
+    <input placeholder='搜索答主' bindblur='no_focus' bindfocus="focus" />
+  </view>
+
+
+  <!-- 选择圈子 -->
+  <view class='big_choose_btn'>
+    <view class='title_my'>
+      <text>答主圈子：</text>
+      <text class='activity-time'>{{tit_con}}</text>
+      <text bindtap="showa">我的圈子</text>
+      <view>
+     </view>
+   </view>
+
+    <view class="modal-box" hidden="{{flag}}" catchtap='hide' catchtouchmove="preventTouchMove" >
+      <view class="modal-body">
+        <view class="modal-content" id='my_btn_wrap'>
+          <view bindtap='select' class=' choose_btn_check clear' style='height:{{height}}px'>
+            <view class='{{id == 0 ? "active":""}}' data-id='0' data-tit='国际邮轮'>集装箱</view>
+            <view class='{{id == 1 ? "active":""}}' data-id='1' data-tit='集装箱'>集装箱</view>
+            <view class='{{id == 2 ? "active":""}}' data-id='2' data-tit='国际邮轮'>国际邮轮</view>
+            <view class='{{id == 3 ? "active":""}}' data-id='3' data-tit='集装箱'>集装箱</view>
+            <view class='{{id == 4 ? "active":""}}' data-id='4' data-tit='国际邮轮'>国际邮轮</view>
+            <view class='{{id == 5 ? "active":""}}' data-id='5' data-tit='国际邮轮'>国际邮轮</view>
+            <view class='{{id == 6 ? "active":""}}' data-id='6' data-tit='国际邮轮'>国际邮轮</view>
+            <view class='{{id == 7 ? "active":""}}' data-id='7' data-tit='国际邮轮'>国际邮轮</view>
+            <view class='{{id == 8 ? "active":""}}' data-id='8' data-tit='国际邮轮'>国际邮轮</view>
+            <view class='{{id == 9 ? "active":""}}' data-id='9' data-tit='国际邮轮'>国际邮轮</view>
+            <view class='{{id == 10 ? "active":""}}' data-id='10' data-tit='国际邮轮'>国际邮轮</view>
+          </view>
+
+          <!-- <view class='spread' bindtap='spread'>
+            <text>展开全部</text>
+            <text class='iconfont icon-ai-arrow-down'></text>
+          </view> -->
+          <view class='spread' bindtap='all' wx:if='{{height == 85}}'>
+            <text>展开全部</text>
+            <text class='iconfont icon-ai-arrow-down'></text>
+          </view>
+          <view class='spread' bindtap='alls' wx:if='{{height != 85}}'>
+            <text>收起</text>
+            <text class='iconfont icon-ai-arrow-down'></text>
+          </view>
+        </view>
+      </view>
+    </view>
+
+
+
+
+    <!-- <view id='my_btn_wrap'>
+      <view bindtap='select' class=' choose_btn_check clear box' style='height:{{height}}px'>
+        <view class='{{id == 0 ? "actives":""}}' data-id='0' data-tit='国际邮轮'>国际邮轮</view>
+        <view class='{{id == 1 ? "actives":""}}' data-id='1' data-tit='集装箱'>集装箱</view>
+        <view class='{{id == 2 ? "actives":""}}' data-id='2' data-tit='国际邮轮'>国际邮轮</view>
+        <view class='{{id == 3 ? "actives":""}}' data-id='3' data-tit='集装箱'>集装箱</view>
+        <view class='{{id == 4 ? "actives":""}}' data-id='4' data-tit='国际邮轮'>国际邮轮</view>
+        <view class='{{id == 5 ? "actives":""}}' data-id='5' data-tit='国际邮轮'>国际邮轮</view>
+        <view class='{{id == 6 ? "actives":""}}' data-id='6' data-tit='国际邮轮'>国际邮轮</view>
+        <view class='{{id == 7 ? "actives":""}}' data-id='7' data-tit='国际邮轮'>国际邮轮</view>
+        <view class='{{id == 8 ? "actives":""}}' data-id='8' data-tit='国际邮轮'>国际邮轮</view>
+        <view class='{{id == 9 ? "actives":""}}' data-id='9' data-tit='国际邮轮'>国际邮轮</view>
+        <view class='{{id == 10 ? "actives":""}}' data-id='10' data-tit='国际邮轮'>国际邮轮</view>
+      </view>
+
+      <view class='spread' bindtap='all' wx:if='{{height == 85}}'>
+        <text>展开全部</text>
+        <text class='iconfont icon-ai-arrow-down'></text>
+      </view>
+      <view class='spread' bindtap='alls' wx:if='{{height != 85}}'>
+        <text>收起</text>
+        <text class='iconfont icon-ai-arrow-down'></text>
+      </view>
+
+    </view> -->
+
+  </view>
+
+  <view class='center_answer' bindtap='content'>
+    <button class='dating' bindtap='pay_m'>￥50元</button>
+    <image src='/../images/index/yi.png'></image>
+    <view class='huifu'>
+      <text>蒋先生</text>
+      <text>中华航运公司 总经理</text>
+      <view class='num'>
+        <text>500人咨询</text>
+        <text>340人评价</text>
+      </view>
+    </view>
+    <text>中华航运公司总经理，资深航运人，对行业各类知识了如指掌；中华航运公司总经理，资深航运人。</text>
+
+  </view>
+
+  <view class='center_answer'>
+    <button class='dating' bindtap='pay_m'>￥50元</button>
+    <image src='/../images/index/yi.png'></image>
+    <view class='huifu'>
+      <text>蒋先生</text>
+      <text>中华航运公司 总经理</text>
+      <view class='num'>
+        <text>500人咨询</text>
+        <text>340人评价</text>
+      </view>
+    </view>
+
+  </view>
+
+</view>
+<view bindtap='dating' bindtap='dzsz'>
+  <button class='btn_p check'>我的答主设置</button>
+</view>

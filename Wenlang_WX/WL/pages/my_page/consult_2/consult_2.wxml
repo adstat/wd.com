@@ -1,0 +1,13 @@
+<!--pages/my_page/consult_2/consult_2.wxml-->
+<view class='top'>
+  <image src='../../../image/my/2.png'></image>
+  <view>答主未回复,已退款</view>
+</view>
+<view class='box'>
+  <view>
+    <image src='../../../image/viewpoint/cai.png'></image>
+    <text>我的咨询</text>
+  </view>
+  <view>燃油是船舶运输不可缺少的生命源泉。航行世界各国的远洋货轮大都以燃油为动力，燃油在船舶消燃油是船舶运输不可缺少的生命源泉？</view>
+  <view>10-28 06:30</view>
+</view>

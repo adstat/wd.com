@@ -1,0 +1,92 @@
+/* pages/my_page/customer_service/customer_service.wxss */
+page {
+  background: #f5f5f5;
+  width: 100%;
+  height: 100%;
+}
+.clear:after {
+  content: '';
+  width: 0;
+  height: 0;
+  display: block;
+  clear: both;
+  overflow: hidden;
+}
+.kf_box{
+  width: 100%;
+  height: 560rpx;
+  background: #fff;
+  box-sizing: border-box;
+  padding: 30rpx 50rpx;
+}
+.kf_box>textarea{
+  font-size: 32rpx;
+  color: #999;
+}
+
+
+.baoc{
+  width: 702rpx;
+  height: 88rpx;
+  border-radius: 44rpx;
+  background: linear-gradient(to left, #2677E2 , #409AFF);
+  text-align: center;
+  line-height: 88rpx;
+  font-size: 38rpx;
+  color: #fff;
+  position: fixed;
+  bottom: 15rpx;
+  left: 25rpx;
+}
+
+.tk_bj{
+  background: rgba(0,0,0,0.8);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+}
+.tk_box{
+  width: 632rpx;
+  height: 570rpx;
+  background: #fff;
+  border-radius: 12rpx;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+}
+.erro{
+  position: absolute;
+  top: 30rpx;
+  right: 40rpx;
+  width: 27rpx;
+  height: 27rpx;
+}
+.dx{
+  width: 164rpx;
+  height: 164rpx;
+}
+.tk_box>text{
+  width: 375rpx;
+  font-size: 28rpx;
+  color: #333;
+  margin-top: 49rpx;
+  margin-bottom: 45rpx;
+}
+.tk_box>view{
+  background: linear-gradient(to left, #2677E2 , #409AFF);
+  width: 530rpx;
+  height: 88rpx;
+  border-radius: 44rpx;
+  text-align: center;
+  line-height: 88rpx;
+  color: #fff;
+  font-size: 32rpx;
+}

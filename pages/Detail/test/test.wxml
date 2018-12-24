@@ -1,0 +1,126 @@
+<button size="mini" type="default" plain="true" class='form-code-btn' bindtap='sendCode' style='color:{{color}}; border-color: {{color}};background-color:#FFF;' disabled="{{disabled}}">{{getCode}}</button>
+
+
+<!-- <view wx:if="{{canIUse}}">
+    <view class='header'>
+        <image src='/images/wx_login.png'></image>
+    </view>
+ 
+    <view class='content'>
+        <view>申请获取以下权限</view>
+        <text>获得你的公开信息(昵称，头像等)</text>
+    </view>
+ 
+    <button class='bottom' type='primary' open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="bindGetUserInfo">
+        授权登录
+    </button>
+</view>
+  -->
+<!-- <view wx:else>请升级微信版本</view>
+
+<button open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber">申请获取手机号</button> -->
+
+<view class="weui-cells mgt-0 {{!showMore? 'hiddenmore' : 'showmore'}}">
+      <view wx:for="{{rankList}}" wx:for-item="item" wx:for-index="idx" wx:key="" class="weui-cell {{idx>1 ? 'more-item' : ''}}">
+        <view class="weui-cell__bd ml-10">
+          <text class='fs-30 block'>nickname{{idx}}</text>
+        </view>
+      </view>
+    </view>
+    <block wx:if="{{rankList.length>2}}">
+      <view wx:if="{{showMore}}" class='fs-30 text-center pd10-15 fc-blue' bindtap='listToggle'>
+        收起
+        <icon class="shishuofont icon-list-close"></icon>
+      </view>
+      <view wx:else class='fs-30 text-center pd10-15 fc-blue' bindtap='listToggle'>
+        查看更多
+        <icon class="shishuofont icon-list-open"></icon>
+      </view>
+    </block>
+<!-- <view style='height:{{height}}' class='dd'>
+    <text>加快递费</text>
+    <text>加快递费</text>
+    <text>加快递费</text>
+    <text>加快递费</text>
+    <text>加快递费</text>
+</view>
+<button  bindtap='spread'>展开</button> -->
+<!-- 
+<view style='height:{{height}}px' class='box'>
+<text>的是看看</text>
+</view>
+
+<view bindtap='all' wx:if='{{height == 40}}'>查看全部</view>
+<view bindtap='alls' wx:if='{{height != 40}}'>收起</view> -->
+
+
+<form bindsubmit="formBindsubmit" bindreset="formReset">
+  <view style="display:flex;">
+    <label>用户名：</label>
+    <input name="userName" placeholder="请输入用户名！" />
+  </view>
+  <view style="display:flex;">
+    <label>密码：</label>
+    <input name="psw" placeholder="请输入密码！" password="true" />
+  </view>
+  <view style="display:flex;margin-top:30px;">
+    <button style="width:30%;" formType="submit" >登录</button>
+    <button style="width:30%" formType="reset" >重置</button>
+  </view>
+</form>
+<view>{{tip}}</view>
+<view>{{userName}}</view>
+<view>{{psw}}</view>
+
+
+
+<view class="container">
+  <view class="login-icon">
+    <image class="login-img" src="../images/loginLog.jpg"></image>
+  </view>
+  <view class="login-from">
+ 
+    <!--账号-->
+    <view class="inputView">
+      <!-- <image class="nameImage" src="../images/name.png"></image> -->
+      <label class="loginLab">账号</label>
+      <input class="inputText" placeholder="请输入账号" bindinput="phoneInput" />
+    </view>
+    <view class="line"></view>
+ 
+    <!--密码-->
+    <view class="inputView">
+      <!-- <image class="keyImage" src="../images/key.png"></image> -->
+      <label class="loginLab">密码</label>
+      <input class="inputText" password="true" placeholder="请输入密码" bindinput="passwordInput" />
+    </view>
+ 
+    <!--按钮-->
+    <view class="loginBtnView">
+      <button class="loginBtn" type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="login">登录</button>
+    </view>
+  </view>
+</view>
+
+<view class='item ft-30 h90 flex flex-vc bd-bt-f4f pd-lt20 pd-rt20'>
+     <label class='item-left color-333 mg-rt10' for='sex'>性别：</label>
+     <radio-group class="item-right radio-group" bindchange="changeSex">
+          <label class="radio" wx:for="{{items}}">
+               <radio value="{{item.name}}" checked="{{item.checked}}"/>{{item.name}}
+          </label>
+     </radio-group>
+</view>
+
+<!-- <view class="list-wrapper">
+      <view class="list-top">
+         <view data-num="1" class="list-menu list-menu1 {{_num==1?'cur':''}}" bindtap="menuClick">头条</view>
+         <view data-num="2" class="list-menu list-menu2 {{_num==2?'cur':''}}" bindtap="menuClick">活动</view>
+         <view data-num="3" class="list-menu list-menu3 {{_num==3?'cur':''}}" bindtap="menuClick">公告</view>
+      </view>
+</view> -->
+<label>您好</label>
+<radio>
+</radio>
+<cover-view>
+ <cover-image></cover-image>
+</cover-view>

@@ -1,0 +1,53 @@
+<!--pages/my_page/answer_master/answer_master.wxml-->
+<view class='suib'>
+  <text class='suib_left'>接受咨询</text>
+  <view class='suib_right'>
+    <view>
+      <view class='guan_box'>
+        <!-- <image src='../../../image/my/xzlan.png'></image> -->
+      </view>
+      <text class='guan'>关</text>
+    </view>
+    <view>
+      <view class='kai_box'>
+        <image src='../../../image/my/xzlan.png'></image>
+      </view>
+      <text class='kai'>开</text>
+    </view>
+  </view>
+</view>
+<view class='suib'>
+  <view class='suib_lefts'>
+    <view>咨询单价</view>
+    <view>*25%用于平台收费和税费代缴</view>
+  </view>
+  <view class='suib_right'>
+    <text class='yuan'>30  元</text>
+  </view>
+</view>
+<view class='suib'>
+  <view class='suib_lefts'>
+    <view>允许提问者公开咨询内容</view>
+    <view>*公开为有偿公开，咨询双方各分享40%</view>
+  </view>
+  <view class='suib_right'>
+    <view>
+      <view class='guan_box'>
+        <!-- <image src='../../../image/my/xzlan.png'></image> -->
+      </view>
+      <text class='guan'>关</text>
+    </view>
+    <view>
+      <view class='kai_box'>
+        <image src='../../../image/my/xzlan.png'></image>
+      </view>
+      <text class='kai'>开</text>
+    </view>
+  </view>
+</view>
+
+<view class='dzms'>
+  <view>答主描述</view>
+  <textarea placeholder='燃油是船舶运输不可缺少的生命源泉。航行世界各国的远洋货轮大都以燃油为动力。'></textarea>
+</view>
+<view class='bc'>保存</view>

@@ -1,0 +1,73 @@
+<!-- 发布主题  描述 -->
+<!-- 提问添加描述 -->
+
+<view class='wrap_q'>
+  <!-- <input value='航运'  bindinput='length'  />
+  <text>{{length}}/40 {{maxTextLen}} </text>
+  <textarea placeholder='问题描述（0-150）'></textarea> -->
+  
+  <view class='wrap_input'>
+      <input placeholder='航运' bindinput="getWords" maxlength='{{maxTextLen}}'  />
+      <text>{{length}}{{textLen}}/{{maxTextLen}}</text>
+  </view>
+  
+  <textarea placeholder='问题描述选填（0-150）'></textarea>
+
+
+<!-- 上传图片 -->
+ <view class="img-v" >
+ <view class="img" wx:for="{{imgs}}" wx:for-item="item" wx:key="*this" style='display:inline-block;'>
+   <image src="{{item}}" data-index="{{index}}" mode="aspectFill" class='show_img'></image> 
+    <view class="delete-btn" data-index="{{index}}" catchtap="deleteImg">
+        <text class='iconfont icon-guanbi'></text>
+    </view>
+ </view>
+ <view class="upload-img-btn" bindtap="chooseImg" class='choose_img' style="">
+    <text class='iconfont icon-xiangji'></text>
+    <text>添加图片</text>
+ </view>
+</view> 
+</view>
+
+
+ <!-- <textarea class="myTextarea" rows="10" cols="50" placeholder="请输入不少于10个字的描述" maxlength="200" id="Content" onkeyup="wordStatic(this);"></textarea> -->
+
+
+
+
+
+
+  <view bindtap='select' class='choose_btn'>
+    <text>选择圈子：</text>
+    <view class='{{id == 0 ? "actives":""}}' data-id='0' data-tit='国际邮轮'>国际邮轮</view>
+    <view class='{{id == 1 ? "actives":""}}' data-id='1' data-tit='国际邮轮'>国际邮轮</view>
+    <view class='{{id == 2 ? "actives":""}}' data-id='2' data-tit='国际邮轮'>国际邮轮</view>
+    <view class='{{id == 3 ? "actives":""}}' data-id='3' data-tit='国际邮轮'>国际邮轮</view>
+    <view class='{{id == 4 ? "actives":""}}' data-id='4' data-tit='国际邮轮'>国际邮轮</view>
+    <view class='{{id == 5 ? "actives":""}}' data-id='5' data-tit='国际邮轮'>国际邮轮</view>
+    <view class='{{id == 6 ? "actives":""}}' data-id='6' data-tit='国际邮轮'>国际邮轮</view>
+    <view class='{{id == 7 ? "actives":""}}' data-id='7' data-tit='国际邮轮'>国际邮轮</view>
+  </view> 
+
+
+<view class='niming'>
+  <text class='input'></text>
+  <text>匿名</text>
+</view>
+
+<view class='mask_fabu' style='display:none;'>
+   <image src='/../images/index/icon_cg.png'></image>
+   <text>发布成功</text>
+</view>
+
+<view class='mske_mian' style='display:none'>
+   <text>您输入的内容包含敏感词，请编辑后发送。</text>
+</view>
+
+
+<view>
+   <button class='btn_p check' bindtap='submit'>发布</button>
+</view>
+
+
+

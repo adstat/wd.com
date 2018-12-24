@@ -1,0 +1,14 @@
+<!--pages/my_page/education_add/education_add.wxml-->
+<view class='box'>
+  <input placeholder='学校名称'></input>
+</view>
+<view class='box'>
+  <input placeholder='专业名称'></input>
+</view>
+<view class='box'>
+  <input placeholder='在校时间'></input>
+</view>
+<view class='box'>
+  <input placeholder='学历'></input>
+</view>
+<view class='bc'>保存</view>

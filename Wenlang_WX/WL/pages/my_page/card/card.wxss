@@ -1,0 +1,64 @@
+/* pages/my_page/card/card.wxss */
+page {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  background: white
+}
+.clear:after {
+  content: '';
+  width: 0;
+  height: 0;
+  display: block;
+  clear: both;
+  overflow: hi
+  bac
+  
+  
+  
+  
+  backgrounn
+  
+     vf
+     
+     
+     肯定积
+     
+     
+     -
+     dden;
+}
+.bc{
+  width: 702rpx;
+  height: 88rpx;
+  border-radius: 44rpx;
+  background: linear-gradient(to left, #2677E2 , #409AFF);
+  text-align: center;
+  line-height: 88rpx;
+  font-size: 32rpx;
+  color: #fff;
+  position: fixed;
+  bottom: 15rpx;
+  left: 25rpx;
+}
+.anniu{
+  width: 278rpx;
+  align-items: center;
+  justify-content:center;
+  border-radius: 12rpx;
+}
+.anniu>image{
+  width: 46rpx;
+  height: 42rpx;
+}
+.anniu>text{
+  color: #2678E2;
+  font-size: 28rpx;
+  margin-left: 15rpx;
+}
+.card{
+  width: 750rpx;
+  height: 400rpx;
+  margin-top: 212rpx;
+  margin-bottom: 70rpx;
+}

@@ -1,0 +1,10 @@
+<!--pages/my_page/reply/reply.wxml-->
+<view class='fabu_box'>
+  <textarea placeholder='请填写回复内容'></textarea>
+  <view class='sctp'>
+    <image src='../../../image/viewpoint/xiangji.png'></image>
+    <view>添加图片</view>
+  </view>
+</view>
+
+<view class='fabu'>确认</view>

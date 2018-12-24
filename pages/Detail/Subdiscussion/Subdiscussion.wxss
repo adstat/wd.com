@@ -1,0 +1,88 @@
+/* 主体讨论详情 */
+#wrap_bottom{
+  margin-bottom: 125rpx;
+}
+.top_banner image{
+  width: 100%;
+  height:380rpx ;
+}
+.top_mask{
+  width: 100%;
+  height:380rpx ;
+  background:rgba(0,0,0,0.5);
+  position: absolute;
+  top: 0;
+}
+.top_mask_center{
+    width:585rpx;
+    margin: 0 auto;
+    margin-top: 136rpx;
+}
+.top_mask_center>text{
+  color: white!important;
+ 
+}
+.top_mask_center>text:nth-child(1){
+  font-size: 36rpx;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+  margin-bottom: 45rpx;
+}
+.top_mask_center>text:nth-child(2){
+   margin-left: 52rpx;
+   background:#FF9913!important;
+}
+.top_mask_center>text:nth-child(3){
+   font-size: 24rpx;
+   margin-left: 53rpx;
+   margin-right: 60rpx;
+}
+.top_mask_center>text:nth-child(4){
+  font-size: 24rpx;
+}
+.explan{
+  height: 314rpx;
+  background: white;
+  padding: 43rpx 27rpx 0rpx 27rpx;  
+  position: relative;
+}
+.explan>text{
+  color:#666;
+  font-size:30rpx ;
+  margin-bottom: 35rpx;
+}
+.wrap_center{
+    position: relative;
+}
+.user_xx{
+  position: absolute;
+  top: -5rpx;
+  left:90rpx;
+}
+
+.user_xx>text:nth-child(1){
+  font-size: 28rpx;
+  color: #2577E3;
+}
+.user_xx>text:nth-child(2){
+  font-size: 22rpx;
+  color: #999;
+  display: block
+}
+.tabs_nav{
+  height: 87rpx;
+  line-height: 87rpx;
+  margin-top: 25rpx;
+  background: white;
+  font-size: 32rpx;
+  border-bottom: 1rpx solid #E9E9E9;
+}
+.tabs_nav text{
+  width: 50%;
+  text-align: center
+}
+.active_font{
+  color: #333!important;
+  font-weight: bold
+}

@@ -1,0 +1,40 @@
+<!--pages/my_page/money/money.wxml-->
+
+<view class='top'>
+  <view class='top_cc'>
+    <view><text>50</text><text>元</text></view>
+    <view>账户余额</view>
+    <view bindtap='extract'>提现</view>
+  </view>
+</view>
+<view class='boxs'>
+  <view class='box_tit'>
+    <view>
+      <view>本月</view>
+      <view class='xia'><text>支出:330元</text><text>收入:90元</text></view>
+    </view>
+    <image src='../../../image/my/rili.png'></image>
+  </view>
+  <view class='list'>
+    <view class='box'>
+      <image src='../../../image/viewpoint/cai.png'></image>
+      <view class='xinxi'>
+        <view>
+          <view class='name'>昵称</view>
+          <view class='geren'>四川航空</view>
+        </view>
+        <view class='jia'>+30元</view>
+      </view>
+    </view>
+    <view class='box'>
+      <image src='../../../image/viewpoint/cai.png'></image>
+      <view class='xinxi'>
+        <view>
+          <view class='name'>昵称</view>
+          <view class='geren'>四川航空</view>
+        </view>
+        <view class='jian'>-30元</view>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,244 @@
+.banner image {
+  width: 100%;
+  height: 520rpx;
+}
+.icon-icon-test1{
+  float:right;color:white;margin-top:23rpx;margin-right:28rpx;font-size:21px;
+}
+.mask_banner {
+  width: 100%;
+  height: 520rpx;
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+}
+
+.main_center {
+  text-align: center;
+   color: white; 
+  margin-top: 50rpx;
+}
+
+.main_center>image:nth-child(1) {
+  width: 120rpx;
+  height: 120rpx;
+   border: 8rpx solid rgba(255,255,255,0.14); 
+  border-radius: 50%;
+  margin-left: 115rpx;
+  
+}
+.main_center>image:nth-child(2),.main_center>image:nth-child(3){
+   width: 32rpx;
+   height: 32rpx;
+   margin-right: 7rpx;
+
+}
+.main_center>image:nth-child(2){
+     margin-left: -40rpx;
+}
+.main_center>text {
+  font-size: 24rpx;
+}
+.main_center>text{
+  display: inline-block;
+}
+.zong{
+  margin-left: 22rpx;
+}
+.com{
+   display: inline-block 
+}
+.com>text:nth-child(2){
+   font-size: 24rpx;
+   margin-left: 20rpx;
+}
+.comfore{
+  margin-right: 51rpx;
+}
+.guanzhu2,.pay{
+  width: 134rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  border-radius: 30rpx;
+  display: inline-block;
+  font-size: 24rpx;
+  color: white;
+  margin-top: 30rpx;
+}
+.tit{
+  font-size: 24rpx;
+  margin-bottom: 20rpx;
+   margin-top: 20rpx; 
+}
+.guanzhu2{
+    border:1rpx solid #FFFFFF;
+    background: none;
+}
+.pay{
+  margin-left: 27rpx;
+  background:linear-gradient(90deg,rgba(38,119,226,1),rgba(64,154,255,1));
+}
+.show_num {
+  height: 148rpx;
+   background: white; 
+  margin-bottom: 18rpx;
+}
+.main_center>view>text{
+   color: white 
+}
+.commom_box {
+  width: 25%;
+  display: inline-block;
+}
+
+.commom_box>text {
+  display: block;
+  text-align: center;
+}
+
+.commom_box>text:nth-child(1) {
+  font-size: 40rpx;
+  color: #333;
+  margin-top: 30rpx;
+  margin-bottom: 15rpx;
+}
+
+.commom_box>text:nth-child(2) {
+  font-size: 26rpx;
+  color: #999;
+}
+.active_btn{
+  font-weight: bold;
+  color: #333!important;
+}
+.nav_list {
+  height: 89rpx;
+  line-height: 89rpx;
+  background: white;
+  border-bottom: 1rpx solid #e9e9e9;
+}
+.nav_list>view{
+ width: 20%;
+  font-size: 28rpx;
+  color: #999;
+  display: inline-block;
+  text-align: center;
+}
+/* .list_tit {
+  
+} */
+
+.all_f {
+  padding: 40rpx 28rpx 0rpx 28rpx;
+  background: white;
+  margin-bottom: 20rpx;
+}
+
+.all_f>text:nth-child(1) {
+  color: #666;
+  font-size: 30rpx;
+  padding-bottom: 40rpx;
+}
+
+.all_f>text:nth-child(2) {
+  height: 94rpx;
+  display: block;
+  line-height: 94rpx;
+  background: white;
+  font-size: 28rpx;
+  color: #333;
+  font-weight: bold;
+  border-top: 1rpx solid #e9e9e9;
+}
+
+.all_f>view>image {
+  width: 190rpx;
+  height: 128rpx;
+  border-radius: 12rpx;
+  margin-right: 19rpx;
+  margin-bottom: 26rpx;
+}
+
+.ques {
+  height: 94rpx;
+  display: block;
+  line-height: 94rpx;
+  background: white;
+  font-size: 28rpx;
+  color: #333;
+  font-weight: bold;
+  border-top: 1rpx solid #e9e9e9;
+}
+
+.index_no_img,.index_no{
+  background: white;
+  padding: 37rpx 27rpx 0rpx 27rpx;
+  margin-bottom: 16rpx;
+}
+.index_no_img{
+  padding-bottom: 36rpx;
+}
+.index_no{
+    height: 172rpx;
+}
+.index_no_img>text:nth-child(1){
+  font-size: 36rpx;
+  color:#333333;
+  font-weight: bold;
+  margin-bottom: 33rpx;
+}
+.index_no_img>text:nth-child(2){
+  font-size:30rpx;
+  color:#666666;
+  margin-bottom: 40rpx;
+}
+.index_no>text:nth-child(1){
+   font-size: 36rpx;
+   color:#333333;
+   font-weight: bold;
+   margin-bottom:39rpx;
+}
+.index_center{
+  width: 100%;
+  background: white;
+  margin-bottom: 16rpx;
+  /* padding-bottom: 30rpx; */
+  position: relative;
+  height: 197rpx;
+}
+.f_center{
+  font-size: 36rpx;
+  color: #333;
+  font-weight: bold;
+  padding-bottom: 28rpx;
+  padding-top: 34rpx;
+}
+.fo_center{
+  color: #666666;
+  font-size: 30rpx;
+  width: 479rpx;
+}
+.f_center,.fo_center{
+   margin: 0rpx 24rpx 0rpx 24rpx;
+   float: left
+}
+.fo_center{
+  margin-bottom: 45rpx;
+}
+.read{
+  font-size: 24rpx;
+  color: #999999;
+ 
+}
+.reader{
+ padding-left: 24rpx;
+}
+.bewrite>text:nth-child(1){
+  color: #FF9913;
+  font-size: 28rpx;
+  margin-right: 20rpx;
+}
+.bewrite>text:nth-child(2){
+  color: #666666!important;
+  font-size: 30rpx;
+}

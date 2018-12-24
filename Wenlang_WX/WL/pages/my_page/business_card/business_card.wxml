@@ -1,0 +1,184 @@
+<!--pages/my_page/business_card/business_card.wxml-->
+<view class='head'>
+  <image class='back_img' src='../../../image/my/beijing.png'></image>
+  <view class='head_z'>
+    <image class='head_fx' src='../../../image/my/shangchuan.png'></image>
+    <view class='head_tx_box'>
+      <image class='head_tx' src='../../../image/viewpoint/cai.png'></image>
+      <image class='xingb' src='../../../image/my/nan.png'></image>
+    </view>
+    <view class='head_name'>胡晓曦</view>
+    <view class='head_zhiw'><text>中华航运公司</text><text>总经理</text></view>
+    <view class='head_dy'>
+      <image class='head_shouj' src='../../../image/my/dianhua.png'></image>
+      <text>15927063665</text>
+      <image class='head_youx' src='../../../image/my/duanxin.png'></image>
+      <text>178476206@qq.com</text>
+    </view>
+    <view class='head_caoz'>
+      <text bindtap='show_shezhi'>显示设置</text>
+      <text bindtap='my_consult'>我的咨询</text>    
+    </view>
+    <view class='head_fengm'>
+      <image src='../../../image/my/xiangji.png'></image>
+      <text>封面图片</text>
+    </view>
+  </view>
+</view>
+
+
+<view class='tit'>
+  <view><text class="{{currentTab==0?'tit_clear':''}}" data-current="0" bindtap="swichNav">问题10</text></view>
+  <view><text class="{{currentTab==1?'tit_clear':''}}" data-current="1" bindtap="swichNav">回答5</text></view>
+  <view><text class="{{currentTab==2?'tit_clear':''}}" data-current="2" bindtap="swichNav">主题3</text></view>
+  <view><text class="{{currentTab==3?'tit_clear':''}}" data-current="3" bindtap="swichNav">讨论2</text></view>
+  <view><text class="{{currentTab==4?'tit_clear':''}}" data-current="4" bindtap="swichNav">观点5</text></view>
+</view>
+<view class='box'  current="{{currentTab}}" bindchange="switchTab">
+  <view class='content' wx:if='{{currentTab==0}}'>
+    <view class='boxs'>
+      <view>油价飙升航企“吃得消”吗？</view>
+      <view class='boxs_content'>
+        <text>描述：燃油是船舶运输不可缺少的生命源泉。航行世界各国的远洋货轮大都以燃油为动力，燃油在船舶消...</text>
+        <image mode='aspectFill' src='../../../image/viewpoint/bj.png'></image>
+      </view>
+      <view class='boxs_bottom clear'>
+        <view>9999阅读</view>
+        <view>99回答</view>
+      </view>
+    </view>
+    <view class='boxs'>
+      <view>油价飙升航企“吃得消”吗？</view>
+      <view class='boxs_content'>
+        <text>描述：燃油是船舶运输不可缺少的生命源泉。航行世界各国的远洋货轮大都以燃油为动力，燃油在船舶消...</text>
+        
+      </view>
+      <view class='boxs_bottom clear'>
+        <view>9999阅读</view>
+        <view>99回答</view>
+      </view>
+    </view>
+  </view>
+
+  <view class='content' wx:if='{{currentTab==1}}'>
+    <view class='boxs'>
+      <view class='huida'>匿名用户：燃油是船舶运输不可缺少的生命源泉。航行世界各国的远洋货轮大都以燃油为动力.</view>
+      <view class='huida_img_box clear'>
+        <image class='huida_img' mode='aspectFill' src='../../../image/viewpoint/bj.png'></image>
+        <image class='huida_img' mode='aspectFill' src='../../../image/viewpoint/bj.png'></image>
+      </view>
+      <view class='huada_tit'>问题：油价飙升航企“吃得消”吗?</view>
+    </view>
+    <view class='boxs'>
+      <view class='huida'>匿名用户：燃油是船舶运输不可缺少的生命源泉。航行世界各国的远洋货轮大都以燃油为动力.</view>
+      <view class='huida_img_box clear'>
+        
+      </view>
+      <view class='huada_tit'>问题：油价飙升航企“吃得消”吗?</view>
+    </view>
+  </view>
+  <view class='content' wx:if='{{currentTab==2}}'>
+    <view class='boxs'>
+      <view class='boxs_content boxs_contents'>
+        <view>
+          <view class='zhuti_title'>油价飙升航企“吃得消”吗？</view>
+          <view class='left_zhuti clear'>
+            <view>9999阅读</view>
+            <view>99回答</view>
+          </view>
+        </view>
+        <image class='zhuti_img' mode='aspectFill' src='../../../image/viewpoint/bj.png'></image>
+      </view>
+    </view>
+    <view class='boxs'>
+      <view class='boxs_content boxs_contents'>
+        <view>
+          <view class='zhuti_title'>中国天然气需求庞大,LNG进口价格会一飞冲天中国天然气.,中国天然气需求庞大。</view>
+          <view class='left_zhuti clear'>
+            <view>9999阅读</view>
+            <view>99回答</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='content' wx:if='{{currentTab==3}}'>
+    <view class='boxs'>
+      <view class='huida'>匿名用户：燃油是船舶运输不可缺少的生命源泉。航行世界各国的远洋货轮大都以燃油为动力.</view>
+      <view class='huida_img_box clear'>
+        <image class='huida_img' mode='aspectFill' src='../../../image/viewpoint/bj.png'></image>
+        <image class='huida_img' mode='aspectFill' src='../../../image/viewpoint/bj.png'></image>
+      </view>
+      <view class='huada_tit'>问题：油价飙升航企“吃得消”吗?</view>
+    </view>
+    <view class='boxs'>
+      <view class='huida'>匿名用户：燃油是船舶运输不可缺少的生命源泉。航行世界各国的远洋货轮大都以燃油为动力.</view>
+      <view class='huida_img_box clear'>
+        
+      </view>
+      <view class='huada_tit'>问题：油价飙升航企“吃得消”吗?</view>
+    </view>
+  </view>
+  <view class='content' wx:if='{{currentTab==4}}'>
+    <view class='sort_content'>
+        <view class='sort_content_tit'>
+          <view class='sort_content_tit_left'>
+            <image src='../../../image/viewpoint/cai.png'></image>
+            <view class='xinxi'>
+              <view>
+                <span class="sort_content_name">倩小姐</span>
+                <span class="sort_content_zw">中华航空公司 总经理</span>
+              </view>
+              <view class='time'>18.10.21</view>
+            </view>
+          </view>
+          <image src='../../../image/viewpoint/snh.png'></image>
+        </view>
+        <view class='sort_content_pl '>
+          <span>#国际邮轮#</span>燃油是船舶运输不可缺少的生命源泉。航行世界各国的远洋货轮大都以燃油为动力，燃油在船舶消燃油是船舶运输不可缺少的生命源泉。航行世界各国的远洋货轮大都以燃油为动力。
+          <view class='tupian clear'>
+            <image src='../../../image/viewpoint/bj.png'></image>
+            <image src='../../../image/viewpoint/bj.png'></image>
+          </view>
+        </view>
+
+        <view class='sort_content_cz'>
+          <view class='dz'>
+            <image src='../../../image/viewpoint/dz_1.png'></image>
+            <span>18</span>
+          </view>
+          <view class='dz sc'>
+            <image src='../../../image/viewpoint/sc_1.png'></image>
+            <span>18</span>
+          </view>
+          <view class='dz zf'>
+            <image src='../../../image/viewpoint/zf_1.png'></image>
+            <span>转发</span>
+          </view>
+        </view>
+      </view>
+  </view>
+</view>
+<!-- 名片 -->
+<view class='card_tk' style='display:none'>
+  <view class='card_box'>
+    <image class='card_img' src='../../../image/my/beijing.png'></image>
+    <view class='card_zhez'></view>
+    <view class='card_boxs'>
+      <view class='card_title'>问浪-航运海事分享社区</view>
+      <view class='head_tx_box'>
+        <image class='head_tx' src='../../../image/viewpoint/cai.png'></image>
+        <image class='xingb' src='../../../image/my/nan.png'></image>
+      </view>
+      <view class='head_name '>胡晓曦</view>
+      <view class='head_zhiw'><text>中华航运公司</text><text>总经理</text></view>
+      <view class='card_shouj card_shouj'>15927063665</view>
+      <view class='card_youx'>178476206@qq.com</view>
+      <image class='card_ewm'></image>
+      <view class='card_baoc'>
+        <image src='../../../image/my/xiazai.png'></image>
+        <text>保存到相册</text>
+      </view>
+    </view>
+  </view>
+</view>

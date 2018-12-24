@@ -1,0 +1,83 @@
+/* pages/Detail/problem_description/problem_description.wxss */
+page{
+  margin-bottom: 200rpx;
+}
+.wrap_q{
+  height: 603rpx;
+  /* position: relative; */
+}
+.wrap_input{
+  height: 87rpx;
+  background: white;
+  border-bottom: 1rpx solid #E9E9E9;
+  border-top: 1rpx solid #E9E9E9;
+  margin-bottom: 29rpx;
+}
+.wrap_input>text{
+  font-size: 24rpx;
+  float: right;
+  margin-top: -60rpx;
+}
+ .wrap_q input{
+  height: 87rpx;
+  width: 600rpx;
+} 
+.wrap_q .textarea{
+  height: 515rpx;
+}
+
+.img-v{
+  top:470rpx!important;
+
+}
+.wrap_q>text{
+   font-size: 24rpx;
+   z-index: 999;
+   /* float: right; */
+   /* position: absolute;
+   right:24rpx;
+   top: 60rpx; */
+}
+.mask_fabu{
+  width:438rpx ;
+  height:296rpx;
+  left: 20%;
+}
+.mask_fabu ,.mske_mian{
+  border-radius:12rpx ;
+  background:rgba(0,0,0,0.8);
+  margin: 0 auto;
+  position: fixed;
+  top: 35%;
+  z-index: 999
+}
+.mask_fabu image{
+  width: 90rpx;
+  height: 90rpx;
+  padding-top: 72rpx;
+  margin-bottom: 23rpx;
+  margin-left: 174rpx;
+}
+.mask_fabu>text{
+  font-size: 32rpx;
+  color: white;
+  display:block;
+  text-align: center;
+}
+.mske_mian{
+  width: 580rpx;
+  /* height: 120rpx; */
+  padding: 32rpx 35rpx 35rpx 35rpx;
+  vertical-align: middle;
+  display: inline-block;
+  left: 6%
+}
+.mske_mian>text{
+      color: white;
+      font-size: 28rpx;
+}
+.img-v{
+  margin-top: -670rpx;
+  position: relative;
+  z-index: 999;
+}

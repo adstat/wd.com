@@ -1,0 +1,6 @@
+<!--pages/my_page/nickname/nickname.wxml-->
+
+<view class='box'>
+  <textarea placeholder='中华航运公司总经理，资深航运人，对行业各类知识了如指掌；中华航运公司总经理，资深航运人。'></textarea>
+</view>
+<view class='bc'>保存</view>

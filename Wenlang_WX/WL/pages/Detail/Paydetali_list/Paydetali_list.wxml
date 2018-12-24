@@ -1,0 +1,38 @@
+<!-- 打听详情页 问题 回答 -->
+<view>
+
+  <view class='main_center clear'>
+    <view class='center_mag'>
+        <image  src='/../images/index/cai.png' mode='aspectFill'></image>
+        <text>匿名某某的咨询</text> 
+    </view>
+     <text>燃油是船舶运输不可缺少的生命源泉。航行世界各国的远洋货轮大都以燃油为动力，燃油在船舶消燃油是船舶运输不可缺少的生命源泉？</text>
+     <text class='time '>18.22.2   20:30</text>
+  </view>
+  
+   <view class='main_center clear'>
+    <view class='center_mag center_mag_spi clear'>
+         <image  src='/../images/index/cai.png' mode='aspectFill'></image> 
+         <view class='right_msg'>
+             <text>匿名某某的咨询</text> 
+             <text>中华航运公司  总经理</text>
+         </view>
+    </view>
+     <text class='clear'>燃油是船舶运输不可缺少的生命源泉。航行世界各国的远洋货轮大都以燃油为动力，燃油在船舶消燃油是船舶运输不可缺少的生命源泉？</text>
+     <text class='timer '>18.22.2   20:30</text>
+  </view>
+ 
+ <view class='footer'>
+     <view class='footer_f'>
+         <text class='iconfont icon-xinsui'></text>
+         <!-- <image src='/../images/index/icon_bmy.png'></image> -->
+      <text>不喜欢</text>
+    </view> 
+    <view class='footer_s'>
+      <image src='/../images/index/icon_my.png'></image>
+      <text>不喜欢</text>
+    </view>
+ </view>
+
+</view>
+

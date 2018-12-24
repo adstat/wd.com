@@ -1,0 +1,62 @@
+<!--pages/my_page/my/my.wxml-->
+<view class='top'>
+  <image src='../../../image/viewpoint/cai.png'></image>
+  <view class='xinxi'>
+    <view>
+      <view class='name'>霹雳无敌美少女</view>
+      <view class='geren' bindtap='p_i_editor'>个人信息编辑</view>
+    </view>
+    <view class='xinxi_right' bindtap='geren_index'>
+      <view>个人主页</view>
+      <image src='../../../image/my/right.png'></image>
+    </view>
+  </view>
+</view>
+<view class='gz_box'>
+  <view bindtap='guanzhu'>
+      <text>23</text>
+      <text>关注</text>
+  </view>
+  <view bindtap='fans'>
+      <text>1000</text>
+      <text>粉丝</text>
+  </view>
+  <view>
+      <text>156</text>
+      <text>获赞</text>
+  </view>
+</view>
+
+<view class='classification'>
+  <view bindtap='my_quan'>
+    <image src='../../../image/my/zixun.png'></image>
+    <text>我的圈子</text>
+  </view>
+  <view bindtap='my_bag'>
+    <image src='../../../image/my/qianbao.png'></image>
+    <text>我的钱包</text>
+  </view>
+  <view bindtap='my_collect'>
+    <image src='../../../image/my/shoucang.png'></image>
+    <text>我的收藏</text>
+  </view>
+  <view>
+    <image src='../../../image/my/tuijian.png'></image>
+    <text>推荐给好友</text>
+  </view>
+  <view bindtap='link_kehu'>
+    <image src='../../../image/my/kefu.png'></image>
+    <text>联系客服</text>
+  </view>
+</view>
+
+<view class='tc'>退出登录</view>
+
+<view class='tk' style='display:none'>
+  <view class='tk_box'>
+    <image class='dmz' src='../../../image/my/zan.png'></image>
+    <view>12334</view>
+    <view>您总共获赞</view>
+    <image class='cha' src='../../../image/my/guanbi.png'></image>
+  </view>
+</view>

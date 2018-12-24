@@ -1,0 +1,7 @@
+/* pages/Detail/Issuetheme/Issuetheme.wxss */
+.img-v{
+  margin-top: -150rpx; 
+  position: relative;
+  z-index: 999;
+  /* margin-left: 24rpx; */
+}

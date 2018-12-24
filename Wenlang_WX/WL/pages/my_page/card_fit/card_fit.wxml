@@ -1,0 +1,24 @@
+<!--pages/my_page/card_fit/card_fit.wxml-->
+<view class='box'>
+  <view class='list'>
+    <text>真实姓名</text>
+    <view>不显示</view>
+  </view>
+  <view class='list'>
+    <text>公司名称</text>
+    <view class='xianshi'>显示</view>
+  </view>
+    <view class='list'>
+    <text>职务</text>
+    <view class='xianshi'>显示</view>
+  </view>
+    <view class='list'>
+    <text>电话</text>
+    <view class='xianshi'>显示</view>
+  </view>
+    <view class='list'>
+    <text>邮箱</text>
+    <view class='xianshi'>显示</view>
+  </view>
+</view>
+<view class='baocun'>保存</view>

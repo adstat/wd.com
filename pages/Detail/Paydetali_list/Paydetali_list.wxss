@@ -1,0 +1,85 @@
+.main_center{
+  background: white;
+  padding: 30rpx 26rpx 30rpx 26rpx;
+  border-bottom: 1rpx solid #E9E9E9;
+  position: relative;
+}
+.main_center>view{
+  margin-bottom: 27rpx;
+}
+.center_mag_spi{
+   float: right; 
+   display: block;
+}
+.center_mag>image{
+   width:60rpx;
+   height:60rpx;
+   vertical-align: middle
+}
+ .center_mag>text{
+  font-size: 30rpx;
+  color: #333;
+  font-weight: bold;
+  margin-left: 22rpx;
+} 
+
+.main_center>text{
+  font-size: 30rpx;
+  color:#666;
+  display: block;
+
+}
+.time{
+  display: block;
+  float: right;
+}
+.timer,.time{
+   margin-top: 27rpx;
+   color: #999!important;
+}
+.right_msg{
+  position: absolute;
+  top: 20rpx;
+  right: 100rpx;
+}
+
+.center_mag .right_msg>text:nth-child(1){
+  font-size: 30rpx;
+  color: #333;
+  font-weight: bold;
+  display: block;
+  text-align: right;
+}
+.center_mag .right_msg>text:nth-child(2){
+  font-size: 24rpx;
+  font-weight: normal;
+  display: block
+}
+.footer{
+ height: 100rpx; 
+ line-height: 100rpx;
+ position: fixed;
+ bottom: 0;
+}
+.footer>view{
+  display: inline-block;
+  text-align: center
+}
+.icon-xinsui{
+  font-size:22px;
+  margin-right: 9rpx;
+}
+.footer_s image,.footer_f image{
+  width: 40rpx;
+  height: 35rpx;
+  margin-right: 9rpx;
+}
+.footer_f{
+  width: 300rpx;
+  background: white;
+}
+.footer_s{
+  width: 450rpx;
+  background: #2677E2;
+  color: white;
+}

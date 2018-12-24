@@ -1,0 +1,14 @@
+<!--pages/my_page/work_add/work_add.wxml-->
+<view class='box'>
+  <input placeholder='公司名称'></input>
+</view>
+<view class='box'>
+  <input placeholder='职位名称'></input>
+</view>
+<view class='box'>
+  <input placeholder='入职时间'></input>
+</view>
+<view class='box'>
+  <input placeholder='离职时间'></input>
+</view>
+<view class='bc'>保存</view>

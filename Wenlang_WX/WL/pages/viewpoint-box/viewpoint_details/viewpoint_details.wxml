@@ -1,0 +1,98 @@
+<!--pages/viewpoint-box/viewpoint_details/viewpoint_details.wxml-->
+<view class='sort_content'>
+  <view class='sort_content_tit'>
+    <view class='sort_content_tit_left'>
+      <image src='../../../image/viewpoint/cai.png'></image>
+      <view class='xinxi'>
+        <view>
+          <span class="sort_content_name">倩小姐</span>
+          <span class="sort_content_zw">中华航空公司 总经理</span>
+        </view>
+        <view class='time'>18.10.21</view>
+      </view>
+    </view>
+    <view class='guanzhu_r'>+关注</view>
+  </view>
+  <view class='sort_content_pl sort_content_plg'>
+    <span>#国际邮轮#</span>燃油是船舶运输不可缺少的生命源泉。航行世界各国的远洋货轮大都以燃油为动力，燃油在船舶消燃油是船舶运输不可缺少的生命源泉。航行世界各国的远洋货轮大都以燃油为动力。
+    <view class='tupian clear'>
+      <image src='../../../image/viewpoint/bj.png'></image>
+      <image src='../../../image/viewpoint/bj.png'></image>
+    </view>
+  </view>
+
+  <view class='sort_content_cz'>
+    <view class='dz'>
+      <image src='../../../image/viewpoint/dz_1.png'></image>
+      <span>18</span>
+    </view>
+    <view class='dz sc'>
+      <image src='../../../image/viewpoint/sc_1.png'></image>
+      <span>18</span>
+    </view>
+    <view class='dz zf'>
+      <image src='../../../image/viewpoint/zf_1.png'></image>
+      <span>转发</span>
+    </view>
+  </view>
+</view>
+<view class='pinglun'>
+  <view class='sort_px clear'>全部评论（18）
+  </view>
+  <view class='sort_content'>
+    <view class='sort_content_tit'>
+      <view class='sort_content_tit_left'>
+        <image src='../../../image/viewpoint/cai.png'></image>
+        <view class='xinxi'>
+          <view>
+            <span class="sort_content_name">倩小姐</span>
+            <span class="sort_content_zw">中华航空公司 总经理</span>
+          </view>
+          <view class='time'>18.10.21</view>
+        </view>
+      </view>
+      <image src='../../../image/viewpoint/snh.png'></image>
+    </view>
+    <view class='sort_content_pl '>
+      燃油是船舶运输不可缺少的生命源泉。航行世界各国的远洋货轮大都以燃油为动力，燃油在船舶消燃油是船舶运输不可缺少的生命源泉。航行世界各国的远洋货轮大都以燃油为动力。
+      <view class='tupian clear'>
+        <image src='../../../image/viewpoint/bj.png'></image>
+        <image src='../../../image/viewpoint/bj.png'></image>
+      </view>
+    </view>
+
+  </view>
+  <view class='sort_content'>
+    <view class='sort_content_tit'>
+      <view class='sort_content_tit_left'>
+        <image src='../../../image/viewpoint/cai.png'></image>
+        <view class='xinxi'>
+          <view>
+            <span class="sort_content_name">倩小姐</span>
+            <span class="sort_content_zw">中华航空公司 总经理</span>
+          </view>
+          <view class='time'>18.10.21</view>
+        </view>
+      </view>
+      <image src='../../../image/viewpoint/snh.png'></image>
+    </view>
+    <view class='sort_content_pl '>
+      燃油是船舶运输不可缺少的生命源泉。航行世界各国的远洋货轮大都以燃油为动力，燃油在船舶消燃油是船舶运输不可缺少的生命源泉。航行世界各国的远洋货轮大都以燃油为动力。
+      <view class='tupian clear'>
+      </view>
+    </view>
+
+  </view>
+</view>
+<view class='send'>
+  <view class='dz dbdz'>
+      <image src='../../../image/viewpoint/dz_1.png'></image>
+      <span>18</span>
+    </view>
+    <view class='dz sc dbxx'>
+      <image src='../../../image/viewpoint/sc_1.png'></image>
+      <span>18</span>
+    </view>
+  <input class='pinglun_d' placeholder='写评论'></input>
+  <view class='send_qd'>发送</view>
+</view>

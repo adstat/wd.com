@@ -1,0 +1,33 @@
+<!--pages/my_page/follow/follow.wxml-->
+<view class='list'>
+  <view class='box'>
+    <image src='../../../image/viewpoint/cai.png'></image>
+    <view class='xinxi'>
+      <view>
+        <view class='name'>昵称</view>
+        <view class='geren'>四川航空</view>
+      </view>
+      <view>取消关注</view>
+    </view>
+  </view>
+  <view class='box'>
+    <image src='../../../image/viewpoint/cai.png'></image>
+    <view class='xinxi'>
+      <view>
+        <view class='name'>昵称</view>
+        <view class='geren'>四川航空</view>
+      </view>
+      <view>取消关注</view>
+    </view>
+  </view>
+  <view class='box'>
+    <image src='../../../image/viewpoint/cai.png'></image>
+    <view class='xinxi'>
+      <view>
+        <view class='name'>昵称</view>
+        <view class='geren'>四川航空</view>
+      </view>
+      <view>互为关注</view>
+    </view>
+  </view>
+</view>

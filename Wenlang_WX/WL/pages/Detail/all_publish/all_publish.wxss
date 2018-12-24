@@ -1,0 +1,6 @@
+/* pages/Detail/all_publish/all_publish.wxss */
+.img-v{
+  position: relative;
+  z-index: 99;
+  margin-top: -150rpx
+}

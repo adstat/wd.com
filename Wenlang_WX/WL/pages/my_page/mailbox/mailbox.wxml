@@ -1,0 +1,6 @@
+<!--pages/my_page/nickname/nickname.wxml-->
+
+<view class='box'>
+  <input placeholder='请输入邮箱'></input>
+</view>
+<view class='bc'>保存</view>

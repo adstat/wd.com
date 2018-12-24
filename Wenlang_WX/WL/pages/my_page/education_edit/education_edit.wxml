@@ -1,0 +1,18 @@
+<!--pages/my_page/education_edit/education_edit.wxml-->
+<view class='box'>
+  <input placeholder='学校名称' value='上海交通大学'></input>
+</view>
+<view class='box'>
+  <input placeholder='专业名称' value='土木工程专业'></input>
+</view>
+<view class='box'>
+  <input placeholder='在校时间' value='2014-2018'></input>
+</view>
+<view class='box'>
+  <input placeholder='学历' value='大学本科'></input>
+</view>
+
+<view class='cz'>
+  <view>删除</view>
+  <view>保存</view>
+</view>

@@ -1,0 +1,15 @@
+<!--pages/my_page/customer_service/customer_service.wxml-->
+
+<view class='kf_box'>
+  <textarea placeholder='联系客服详情'></textarea>
+</view>
+<view class='baoc'>提交</view>
+<!-- 提交弹框 -->
+<view class='tk_bj' style='display:none'>
+  <view class='tk_box'>
+    <image class='erro' src='../../../image/viewpoint/erro.png'></image>
+    <image class='dx' src='../../../image/my/fskf.png'></image>
+    <text>我们已经收到了您的反馈,核实情况后会第一时间联系您~</text>
+    <view>完成</view>
+  </view>
+</view>

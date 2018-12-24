@@ -1,0 +1,33 @@
+page{
+    position: relative
+}
+.wrap_q{
+  background: white;
+  height: 516rpx;
+  padding: 30rpx 33rpx 30rpx 33rpx;
+  margin-bottom: 22rpx;
+  position: relative;
+
+}
+.wrap_q textarea{
+   width: 100%;
+   height: 516rpx;
+   background: white;
+   font-size: 32rpx;
+}
+
+.active_img{
+   width: 44rpx;
+   height: 44rpx;
+   background-image: url('/../images/index/icon_chenggong.png');
+}
+
+.niming image{
+  width: 44rpx;
+  height: 44rpx;
+}
+.img-v{
+  margin-top: -150rpx;
+  position: relative;
+  z-index: 999;
+}

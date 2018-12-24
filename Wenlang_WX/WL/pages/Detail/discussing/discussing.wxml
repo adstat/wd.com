@@ -1,0 +1,35 @@
+<!-- 参与讨论 -->
+<view class='wrap'>
+  <view class='wrap_center'>
+    <text class='btn'>国际邮轮</text>
+    <text>中国天然气需求庞大,LNG进口价格会一天然气需求庞大,中国天然气需求?</text>
+  </view>
+  <textarea id='textarea' placeholder='请填写讨论内容'>
+  </textarea>
+
+<!-- 上传图片 -->
+ <view class="img-v" >
+ <view class="img" wx:for="{{imgs}}" wx:for-item="item" wx:key="*this" style='display:inline-block;'>
+   <image src="{{item}}" data-index="{{index}}" mode="aspectFill" class='show_img'></image> 
+    <view class="delete-btn" data-index="{{index}}" catchtap="deleteImg">
+        <text class='iconfont icon-guanbi'></text>
+    </view>
+ </view>
+ <view class="upload-img-btn" bindtap="chooseImg" class='choose_img' style="">
+    <text class='iconfont icon-xiangji'></text>
+    <text>添加图片</text>
+ </view>
+</view> 
+
+</view>
+
+
+
+<view class='niming'>
+   <view  class='{{bg_img == "" ? "input":""}}' bindtap='btnPage' wx:if='{{privacy == false}}'></view>
+   <image class='inputs' src='/images/index/xuanzhong.png' bindtap='btnPage' wx:if='{{privacy == true}}'></image>
+  <text>匿名</text>
+</view>
+<view>
+  <button class='btn_p check' bindtap='submit' catchtap='check'>确认</button>
+</view>

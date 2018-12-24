@@ -1,0 +1,139 @@
+page{
+  background: white;
+  margin-bottom: 200rpx;
+}
+page>view{
+padding-left: 24rpx;
+}
+.top_title{
+  padding-top: 63rpx;
+  margin-bottom: 36rpx;
+   border-top: 1px solid #DDDDDD 
+}
+.f_span{
+  color: red;
+  margin-right: 11rpx;
+}
+.s_f{
+  font-size:32rpx;
+  color:#333;
+  font-weight: bold;
+  margin-right: 18rpx
+}
+.choose{
+  color: #999;
+  font-size: 28rpx;
+}
+.check{
+   border-radius: 50rpx;
+   background: linear-gradient(#409AFF, #2677E2);
+   /* background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#409AFF), to(#2677E2)); */
+   position: fixed;
+   bottom:21rpx;
+   left: 24rpx;
+   z-index: 99;
+}
+.all_btn view{
+  width:163rpx;
+  height:72rpx;
+  line-height: 72rpx;
+  background: white;
+  color: #666666;
+  border:1rpx solid #DDDDDD;
+  font-size: 28rpx;
+  float: left;
+  margin-bottom: 21rpx;
+  border-radius: 36rpx;
+  margin-right: 15rpx;
+  cursor: pointer;
+  text-align: center;
+  
+}
+.all_btn button:last-child{
+   margin-right: 0rpx;
+}
+.nic{
+  margin-top: 45rpx;
+  position: relative;
+}
+.nic input{
+  width: 665rpx;
+  border-bottom:1rpx solid #E9E9E9;
+  font-size: 32rpx;
+  color: #999999;
+  line-height: 100rpx;
+  height: 100rpx;
+  margin-left: 20rpx
+}
+/* textarea */
+#textarea{
+  width: 595rpx;
+  height: 220rpx;
+  background:#F5F5F5;
+  font-size:32rpx ;
+  color:#999 ;
+  padding-top: 24rpx;
+  padding-left: 48rpx;
+  padding-right: 48rpx;
+  margin-top: 36rpx;
+  border-radius: 12rpx;
+}
+radio-group{
+    display: inline-block!important;  
+    width:30%;
+    margin-bottom: 16rpx;
+}
+ label{
+   width: 36%;
+   display: inline-block;
+   vertical-align: middle;
+} 
+.wm{
+  width:665rpx;
+  margin-top: 41rpx;
+  border-bottom: 1rpx solid #E9E9E9;
+  padding-left:24rpx;
+  padding-bottom: 40rpx;
+}
+.num_font{
+  font-size:24rpx ;
+  color: #999;
+  position: absolute;
+  right: 55rpx;
+  bottom:30rpx;  
+  z-index: 999
+}
+
+
+/* 未选中的 背景样式 */
+radio .wx-radio-input{
+   border-radius: 50%;/* 圆角 */
+   width: 36rpx;
+   height: 36rpx;
+}
+/* 选中后的 背景样式 （红色背景 无边框 可根据UI需求自己修改） */
+radio .wx-radio-input.wx-radio-input-checked{
+   border: none;
+   background: red;
+}
+/* 选中后的 对勾样式 （白色对勾 可根据UI需求自己修改） */
+radio .wx-radio-input.wx-radio-input-checked::before{
+   border-radius: 50%;/* 圆角 */
+   width: 36rpx; /* 选中后对勾大小，不要超过背景的尺寸 */
+   height: 36rpx; /* 选中后对勾大小，不要超过背景的尺寸 */
+   line-height: 36rpx;
+   text-align: center;
+   font-size:30rpx; /* 对勾大小 30rpx */
+   color:#fff; /* 对勾颜色 白色 */
+   background: #2577E3;
+   transform:translate(-50%, -50%) scale(1);
+   -webkit-transform:translate(-50%, -50%) scale(1);
+}
+
+
+
+    .btn-selected{
+       border:#fff;
+       background:#FF9913 !important;
+       color: #fff !important;
+      }

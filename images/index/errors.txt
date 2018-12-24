@@ -1,0 +1,8 @@
+[2018-12-07 09:48:46] layer "+加入": Expected Either a default asset specification or a layer asset specification but "+" found.
+[2018-12-07 09:48:46] layer "+加入": Expected Either a default asset specification or a layer asset specification but "+" found.
+[2018-12-07 09:48:46] layer "+加入": Expected Either a default asset specification or a layer asset specification but "+" found.
+[2018-12-07 09:48:46] layer "+关注": Expected Either a default asset specification or a layer asset specification but "+" found.
+[2018-12-07 09:48:46] layer "+关注": Expected Either a default asset specification or a layer asset specification but "+" found.
+[2018-12-07 09:48:46] layer "+关注": Expected Either a default asset specification or a layer asset specification but "+" found.
+[2018-12-07 09:48:46] layer "+关注": Expected Either a default asset specification or a layer asset specification but "+" found.
+[2018-12-07 09:48:46] layer "+关注": Expected Either a default asset specification or a layer asset specification but "+" found.

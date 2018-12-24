@@ -1,0 +1,158 @@
+/* pages/Detail/interlocution/interlocution.wxss */
+
+.top_serch {
+  height: 88rpx;
+  background: white;
+  margin-bottom: 20rpx;
+}
+
+.top_serch input {
+  width: 702rpx;
+  height: 68rpx;
+  background: #f8f8f8;
+  border-radius: 34rpx;
+  margin: 0 auto;
+  font-size: 28rpx;
+  text-indent: 290rpx;
+}
+
+.top_serch image {
+  width: 36rpx;
+  height: 34rpx;
+  position: absolute;
+  top: 16rpx;
+  left: 270rpx;
+  z-index: 99;
+}
+
+.title_my {
+  height: 88rpx;
+  line-height: 88rpx;
+  background: white;
+  padding: 0 25rpx 0 25rpx;
+}
+
+.title_my>text:nth-child(1) {
+  font-size: 28rpx;
+  color: #333;
+}
+
+.title_my>text:nth-child(2) {
+  color: #2577e3;
+  font-size: 24rpx;
+  float: right;
+}
+
+.choose_btn_check {
+  width: 100%;
+  height: 175rpx;
+  /* overflow: hidden; */
+  padding: 26rpx 25rpx 0rpx 25rpx;
+  background: white;
+}
+
+.choose_btn_check>view {
+  width: 163rpx;
+  height: 64rpx;
+  line-height: 64rpx;
+  background: white;
+  color: #666;
+  font-size: 26rpx;
+  text-align: center;
+  float: left;
+  border-radius: 32rpx;
+  margin-bottom: 21rpx;
+  margin-right: 15rpx;
+  border: 1rpx solid #ddd;
+}
+
+.choose_btn_check>view:nth-child(1) {
+  background: #ff9913;
+  color: white;
+}
+
+.spread {
+  text-align: center;
+  color: #999;
+}
+
+.spread>text:nth-child(1) {
+  font-size: 22rpx;
+  margin-right: 14rpx;
+}
+
+#my_btn_wrap {
+   /* height: 268rpx;  */
+  /* height: auto; */
+  background: white;
+  padding-bottom: 20rpx;
+  border-top: 1rpx solid #ddd;
+}
+
+.center_answer {
+  position: relative;
+  padding: 25rpx 25rpx 44rpx 25rpx;
+  background: white;
+  margin: 22rpx 0 20rpx 0;
+}
+
+.center_answer>image {
+  width: 70rpx;
+  height: 70rpx;
+  padding-right: 20rpx;
+}
+
+.center_answer>text {
+  display: block;
+  margin-top: 28rpx;
+  font-size: 30rpx;
+  color: #666;
+}
+
+.center_answer .huifu {
+  position: absolute;
+  top: 20rpx;
+  left: 115rpx;
+}
+
+.center_answer .huifu>text:nth-child(1) {
+  font-size: 32rpx !important;
+  color: #2577e3;
+  font-weight: bold;
+}
+
+.center_answer .huifu>text:nth-child(2) {
+  font-size: 24rpx;
+  color: #666;
+  margin-left: 23rpx;
+}
+
+.num {
+  margin-top: -12rpx;
+}
+
+.num>text {
+  font-size: 22rpx;
+  color: #999;
+}
+
+.num>text:nth-child(1) {
+  margin-right: 37rpx;
+}
+ .dating {
+  width: 154rpx;
+  height: 58rpx;
+  line-height: 58rpx;
+  background: rgba(37, 119, 227, 0.1);
+  font-size: 24rpx;
+  color: #2577e3;
+  font-weight: bold;
+  /* display: inline-block; */
+  text-align: center;
+  border-radius: 29rpx;
+  float: right;
+} 
+.active{
+  background: #FF9913!important;
+  color: white!important;
+}

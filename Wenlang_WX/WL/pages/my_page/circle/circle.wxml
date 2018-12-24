@@ -1,0 +1,14 @@
+<!--pages/my_page/circle/circle.wxml-->
+<view class='title'>可多选</view>
+<view class='q_box clear'>
+  <view class='q_box_clear'>集装箱</view>
+  <view class=''>沿海散货</view>
+  <view class=''>国际邮轮</view>
+  <view class=''>集装箱</view>
+  <view class=''>集装箱</view>
+  <view class=''>集装箱</view>
+  <view class=''>集装箱</view>
+  <view class=''>集装箱</view>
+  <view class=''>集装箱</view>
+</view>
+<view class='qeuren'>确认</view>

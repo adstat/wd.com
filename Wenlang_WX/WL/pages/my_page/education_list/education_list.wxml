@@ -1,0 +1,26 @@
+<!--pages/my_page/education_list/education_list.wxml-->
+<view class='why'>
+  <view class='list'  bindtap='education_edit'>
+    <view>
+      <view class='list_x'>上海交通大学</view>
+      <view class='list_time'>2011.09-2014.06</view>
+      <view class='list_zhuany'>土木工程专业 | 大学本科</view>
+    </view>
+    <image src='../../../image/my/right1.png'></image>
+  </view>
+  <view class='list' bindtap='education_edit'>
+    <view>
+      <view class='list_x'>上海交通大学</view>
+      <view class='list_time'>2011.09-2014.06</view>
+      <view class='list_zhuany'>土木工程专业 | 大学本科</view>
+    </view>
+    <image src='../../../image/my/right1.png'></image>
+  </view>
+</view>
+<view class='tianjia' bindtap='education_add'>
+  <view>
+    +
+  </view>
+  <text>添加教育经历</text>
+</view>
+<view class='bc'>保存</view>

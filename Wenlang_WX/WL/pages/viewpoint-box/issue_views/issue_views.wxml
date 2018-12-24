@@ -1,0 +1,10 @@
+<!--pages/viewpoint-box/issue_views/issue_views.wxml-->
+<view class='fabu_box'>
+  <textarea placeholder='#国际邮轮#宁波港域前三季度集装箱海铁联运业务超去年总量滚装汽车吞吐量跻身“10万+”俱乐。'></textarea>
+  <view class='sctp'>
+    <image src='../../../image/viewpoint/xiangji.png'></image>
+    <view>添加图片</view>
+  </view>
+</view>
+
+<view class='fabu'>发布观点</view>

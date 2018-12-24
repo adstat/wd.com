@@ -1,0 +1,164 @@
+<!--pages/viewpoint/viewpoint.wxml-->
+<view class='search_top'>
+  <view class='search'>
+    <image src='../../../image/viewpoint/sousuo.png'></image>
+    <input confirm-type="search" placeholder='搜索观点、话题' focus="{{focus}}"></input>
+  </view>
+</view>
+<view class='tab_tit'>
+  <view class="{{currentTab==0?'tab_tit_clear':''}}" data-current="0" bindtap="swichNav">关注</view>
+  <view class="{{currentTab==1?'tab_tit_clear':''}}" data-current="1" bindtap="swichNav">推荐</view>
+  <view class="{{currentTab==2?'tab_tit_clear':''}}" data-current="2" bindtap="swichNav">话题</view>
+</view>
+<!-- 无关注 -->
+<view class='follow_no'>
+  <image src='../../../image/viewpoint/img.png'></image>
+</view>
+<view current="{{currentTab}}" bindchange="switchTab">
+  <view class='tab_contont' wx:if='{{currentTab==0}}'>
+    <!-- 感兴趣的 -->
+    <view class='interest'>
+      <view class='interest_title'>
+        <view class='gxq'>可能感兴趣的人</view>
+        <view class='interest_title_sj'>
+          <view class='hyp'>
+            <image src='../../../image/viewpoint/sx.png'></image>
+            <view>换一批</view>
+          </view>
+          <image src='../../../image/viewpoint/erro.png'></image>
+        </view>
+      </view>
+      <view class='interest_content'>
+        <view class='list'>
+          <image src='../../../image/viewpoint/cai.png'></image>
+          <view class='name'>易小姐</view>
+          <view class='follow'>+关注</view>
+        </view>
+        <view class='list'>
+          <image src='../../../image/viewpoint/cai.png'></image>
+          <view class='name'>易小姐</view>
+          <view class='follow'>+关注</view>
+        </view>
+        <view class='list'>
+          <image src='../../../image/viewpoint/cai.png'></image>
+          <view class='name'>易小姐</view>
+          <view class='follow'>+关注</view>
+        </view>
+        <view class='list'>
+          <image src='../../../image/viewpoint/cai.png'></image>
+          <view class='name'>易小姐</view>
+          <view class='follow'>+关注</view>
+        </view>
+        <view class='list'>
+          <image src='../../../image/viewpoint/cai.png'></image>
+          <view class='name'>易小姐</view>
+          <view class='follow'>+关注</view>
+        </view>
+        <view class='list'>
+          <image src='../../../image/viewpoint/cai.png'></image>
+          <view class='name'>易小姐</view>
+          <view class='follow'>+关注</view>
+        </view>
+      </view>
+    </view>
+    <!-- 热度排序 -->
+    <view class='sort'>
+      <view class='sort_px clear'>
+        <image src='../../../image/viewpoint/xia.png'></image>
+        <view>热度排序</view>
+      </view>
+      <view class='sort_content' bindtap='go_detail'>
+        <view class='sort_content_tit'>
+          <view class='sort_content_tit_left'>
+            <image src='../../../image/viewpoint/cai.png'></image>
+            <view class='xinxi'>
+              <view>
+                <span class="sort_content_name">倩小姐</span>
+                <span class="sort_content_zw">中华航空公司 总经理</span>
+              </view>
+              <view class='time'>18.10.21</view>
+            </view>
+          </view>
+          <image src='../../../image/viewpoint/snh.png'></image>
+        </view>
+        <view class='sort_content_pl'>
+          <span>#国际邮轮#</span>燃油是船舶运输不可缺少的生命源泉。航行世界各国的远洋货轮大都以燃油为动力，燃油在船舶消燃油是船舶运输不可缺少的生命源泉。航行世界各国的远洋货轮大都以燃油为动力。
+          <view class='tupian clear'>
+            <image src='../../../image/viewpoint/bj.png'></image>
+            <image src='../../../image/viewpoint/bj.png'></image>
+          </view>
+        </view>
+
+        <view class='sort_content_cz'>
+          <view class='dz'>
+            <image src='../../../image/viewpoint/dz_1.png'></image>
+            <span>18</span>
+          </view>
+          <view class='dz sc'>
+            <image src='../../../image/viewpoint/sc_1.png'></image>
+            <span>18</span>
+          </view>
+          <view class='dz zf'>
+            <image src='../../../image/viewpoint/zf_1.png'></image>
+            <span>转发</span>
+          </view>
+        </view>
+      </view>
+      <view class='sort_content' bindtap='go_detail'>
+        <view class='sort_content_tit'>
+          <view class='sort_content_tit_left'>
+            <image src='../../../image/viewpoint/cai.png'></image>
+            <view class='xinxi'>
+              <view>
+                <span class="sort_content_name">倩小姐</span>
+                <span class="sort_content_zw">中华航空公司 总经理</span>
+              </view>
+              <view class='time'>18.10.21</view>
+            </view>
+          </view>
+          <image src='../../../image/viewpoint/snh.png'></image>
+        </view>
+        <view class='sort_content_pl '>
+          <span>#国际邮轮#</span>燃油是船舶运输不可缺少的生命源泉。航行世界各国的远洋货轮大都以燃油为动力，燃油在船舶消燃油是船舶运输不可缺少的生命源泉。航行世界各国的远洋货轮大都以燃油为动力。
+          <view class='tupian clear'>
+
+          </view>
+        </view>
+
+        <view class='sort_content_cz'>
+          <view class='dz'>
+            <image src='../../../image/viewpoint/dz_1.png'></image>
+            <span>18</span>
+          </view>
+          <view class='dz sc'>
+            <image src='../../../image/viewpoint/sc_1.png'></image>
+            <span>18</span>
+          </view>
+          <view class='dz zf'>
+            <image src='../../../image/viewpoint/zf_1.png'></image>
+            <span>转发</span>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='tab_contont' wx:if='{{currentTab==1}}'>1</view>
+  <view class='tab_contont tab_contont_3' wx:if='{{currentTab==2}}'>
+      <view class='lists' bindtap='huati_detail'>
+        <view>
+          <span class="paih">1:</span>
+          <span class="nicheng">#国际邮轮#</span>
+          <span class="zhuany">热</span>
+        </view>
+        
+        <view class='renshu'>12000人参与</view>
+      </view>
+  </view>
+</view>
+
+
+<!-- 发布 按钮 -->
+<view class='release'>
+  <image src='../../../image/viewpoint/jia.png'></image>
+  <view>发布</view>
+</view>

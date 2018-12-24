@@ -1,0 +1,62 @@
+/* pages/my_page/circle/circle.wxss */
+page {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  background: white
+}
+.clear:after {
+  content: '';
+  width: 0;
+  height: 0;
+  display: block;
+  clear: both;
+  overflow: hidden;
+}
+
+.title{
+  font-size: 28rpx;
+  color: #999;
+  text-align: center;
+}
+.q_box{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 24rpx;
+}
+.q_box>view{
+  width: 181rpx;
+  height: 181rpx;
+  border-radius: 90.5rpx;
+  text-align: center;
+  line-height: 181rpx;
+  font-size: 32rpx;
+  color: #333;
+  border: 1rpx solid #dddddd;
+  float: left;
+  box-sizing: border-box;
+  margin-bottom: 63rpx;
+}
+.q_box_clear{
+  color: #fff!important;
+  background: #FF9913;
+  border: 1rpx solid #FF9913!important;
+}
+.q_box>view:nth-child(3n+2){
+  margin: 0 80rpx;
+}
+
+
+.qeuren{
+  width: 702rpx;
+  height: 88rpx;
+  border-radius: 44rpx;
+  background: linear-gradient(to left, #2677E2 , #409AFF);
+  text-align: center;
+  line-height: 88rpx;
+  font-size: 34rpx;
+  color: #fff;
+  position: absolute;
+  bottom: 12rpx;
+  left: 24rpx;
+}

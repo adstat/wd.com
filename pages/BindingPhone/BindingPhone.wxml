@@ -1,0 +1,14 @@
+<!-- 绑定手机号 -->
+<view>
+  <view  class="phone" >
+    <input placeholder="绑定手机号" auto-focus  />
+  </view>
+  <view class="msg">
+     <input placeholder="绑定手机号" auto-focus />
+  </view>
+   <!-- <input placeholder="绑定手机号" auto-focus class="phone" />
+  <input placeholder="短信验证码" auto-focus class="msg" /> -->
+  <button class='yzm form-code-btn' type="default" bindtap='sendCode' disabled='{{disabled}}' style='color:#2476E3; border-color:#2476E3;'> {{getCode}} </button>
+  <button class='next' catchtap='next'>下一步</button>
+  
+</view>

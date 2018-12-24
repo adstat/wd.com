@@ -1,0 +1,50 @@
+<!-- 向他咨询 -->
+<view class='for_other'>
+  <textarea placeholder='请输入你的问题'></textarea>
+
+  <!-- 上传图片 -->
+  <view class="img-v">
+    <view class="img" wx:for="{{imgs}}" wx:for-item="item" wx:key="*this" style='display:inline-block;'>
+      <image src="{{item}}" data-index="{{index}}" mode="aspectFill" class='show_img'></image>
+      <view class="delete-btn" data-index="{{index}}" catchtap="deleteImg">
+        <text class='iconfont icon-guanbi'></text>
+      </view>
+    </view>
+    <view class="upload-img-btn" bindtap="chooseImg" class='choose_img' style="">
+      <text class='iconfont icon-xiangji'></text>
+      <text>名片</text>
+    </view>
+  </view>
+
+</view>
+
+
+<!-- 匿名 -->
+ <view class='niming'>
+  <text class='input'></text>
+  <text>匿名</text>
+</view> 
+
+<view>
+  <button class='btn_p check' bindtap='pay'>支付50元</button>
+</view>
+
+<action-sheet hidden="{{actionSheetHidden}}" bindchange="actionSheetbindchange">
+  <block>
+    <action-sheet-item bindtap="yue">账户余额</action-sheet-item>
+    <action-sheet-item bindtap="weixin">微信支付</action-sheet-item>
+  </block>
+  <action-sheet-cancel class="cancel">取消</action-sheet-cancel>
+</action-sheet>
+
+<view class="modal-box" hidden="{{flags}}" catchtouchmove="preventTouchMove">
+  <view class="modal-body">
+    <view class="modal-content" style='background:#FFF;'>
+      <image src='/images/index/icon_chenggong.png' mode='aspectFill' class='cg-image'></image>
+      <image src='/images/index/close.png' class='xiaochu-image' mode='aspectFill' catchtap='xcPage'></image>
+      <text class='cz-tit1'>已支付成功,等待答主回复</text>
+      <text class='red_main'>*答主48小时未回复,系统将自动退款</text>
+      <button class='cz-btn' bindtap='inPage'>完成</button>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,18 @@
+<!-- 举报 -->
+<view class='wrap'>
+  <textarea placeholder='请输入举报内容'></textarea>
+</view>
+<view>
+<button class='btn_p check' bindtap='submit'>提交</button>
+</view>
+
+<view class="modal-box" hidden="{{flags}}" catchtouchmove="preventTouchMove">
+  <view class="modal-body">
+    <view class="modal-content" style='background:#FFF;'>
+      <image src='/images/index/icon_hf.png' mode='aspectFill' class='cg-image'></image>
+      <image src='/images/index/close.png' class='xiaochu-image' mode='aspectFill' catchtap='xcPage'></image>
+      <text class='cz-tit1'>我们已经收到了您的反馈,核实情况后会第一时间联系您~</text>
+      <button class='cz-btn' bindtap='inPage'>完成</button>
+    </view>
+  </view>
+</view>

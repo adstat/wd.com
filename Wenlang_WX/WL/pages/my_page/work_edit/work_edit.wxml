@@ -1,0 +1,18 @@
+<!--pages/my_page/work_edit/work_edit.wxml-->
+<view class='box'>
+  <input placeholder='公司名称' value='上海智休信息科技有限公司'></input>
+</view>
+<view class='box'>
+  <input placeholder='职位名称' value='产品制作美工'></input>
+</view>
+<view class='box'>
+  <input placeholder='入职时间' value='2018.06'></input>
+</view>
+<view class='box'>
+  <input placeholder='离职时间' value='至今'></input>
+</view>
+
+<view class='cz'>
+  <view>删除</view>
+  <view>保存</view>
+</view>

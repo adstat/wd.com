@@ -1,0 +1,60 @@
+<!--pages/my_page/consult_4/consult_4.wxml-->
+<view style='margin-bottom:130rpx;'>
+<view class='top'>
+  <image src='../../../image/my/3.png'></image>
+  <view>本次咨询<text>8小时</text>后结束</view>
+  <view class='top_caoz'>
+    <view>
+      <image src='../../../image/my/icon_bmy.png'></image>
+      <text>不满意</text>
+    </view>
+    <view>
+      <image src='../../../image/my/icon_my.png'></image>
+      <text>满意</text>
+    </view>
+  </view>
+</view>
+<view class='gongk'>
+  <text>是否公开</text>
+  <view class="body-view">
+    <switch checked bindchange="switch1Change"/>
+    <!-- <switch bindchange="switch2Change"/> -->
+  </view>
+</view>
+<view class='tishi'>*公开为有偿公开，咨询双方各分享40%，20%为平台收取</view>
+<view class='box'>
+  <view>
+    <image src='../../../image/viewpoint/cai.png'></image>
+    <view class='xinxi'>
+      <view class='tou'>我的咨询</view>
+      <view class='tou_1'>中华航运公司 总经理</view>
+    </view>
+  </view>
+  <view>燃油是船舶运输不可缺少的生命源泉。航行世界各国的远洋货轮大都以燃油为动力，燃油在船舶消燃油是船舶运输不可缺少的生命源泉？</view>
+  <view>10-28 06:30</view>
+</view>
+<view class='box boxs'>
+  <view>
+    <view class='xinxix'>
+      <view class='toux'>冯先生的回复</view>
+      <view class='tou_1x'>中华航运公司 总经理</view>
+    </view>
+    <image src='../../../image/viewpoint/cai.png'></image>
+  </view>
+  <view>燃油是船舶运输不可缺少的生命源泉。航行世界各国的远洋货轮大都以燃油为动力，燃油在船舶消燃油是船舶运输不可缺少的生命源泉？</view>
+  <view style='text-align:left;padding-left: 25rpx;'>10-28 06:30</view>
+</view>
+<view class='box'>
+  <view>
+    <image src='../../../image/viewpoint/cai.png'></image>
+    <view class='xinxi'>
+      <view class='tou'>我的咨询</view>
+      <view class='tou_1'>中华航运公司 总经理</view>
+    </view>
+  </view>
+  <view>燃油是船舶运输不可缺少的生命源泉。航行世界各国的远洋货轮大都以燃油为动力，燃油在船舶消燃油是船舶运输不可缺少的生命源泉？</view>
+  <view>10-28 06:30</view>
+</view>
+</view>
+
+<view class='jx'>确认</view>

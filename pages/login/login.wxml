@@ -1,0 +1,17 @@
+<!-- 登录 -->
+<view>
+   <button class='btn_p phone' open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber">手机号一建登录</button>
+   <button class='btn_p wxdl'>微信账号登录</button>
+   <button class='btn_p dxdl' bindtap='dxdl'>短信验证登录</button>
+</view>
+
+   <view id='dxyz' wx:if="{{isShow}}"> 
+      <image src='/images/index/erro.png'style="" class='erro' bindtap='erros' ></image>
+      <text class='title' id="title">短信验证登录</text>
+      <input placeholder='注册或登录手机号' class='mask_tc'/>
+      <input placeholder='短信验证码' class='mask_tc'/>
+      <button class='yzm'>获取验证码</button>
+      <button class='mask_tc dl'>登录</button>
+  </view>  
+
+

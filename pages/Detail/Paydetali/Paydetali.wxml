@@ -1,0 +1,32 @@
+<!-- 付费详情  -->
+<view>
+   <view class='top_live center display'>
+      <view>
+        <text>打听</text>
+        <text>18</text>
+      </view>
+      <view>
+        <text>喜欢</text>
+        <text>18</text>
+      </view>
+       <view>
+        <text>不喜欢</text>
+        <text>/</text>
+      </view>
+   </view>
+ 
+  <view class='main_center clear'>
+    <view>
+        <image  src='/../images/index/cai.png' mode='aspectFill'></image>
+        <text>匿名某某的咨询</text> 
+    </view>
+     <text>燃油是船舶运输不可缺少的生命源泉。航行世界各国的远洋货轮大都以燃油为动力，燃油在船舶消燃油是船舶运输不可缺少的生命源泉？</text>
+     <text class='time '>18.22.2   20:30</text>
+  </view>
+
+  <view bindtap='dating'>
+     <button class='btn_p check'>5元，打听</button>
+  </view>
+
+</view>
+

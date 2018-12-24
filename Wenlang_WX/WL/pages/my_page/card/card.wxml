@@ -1,0 +1,10 @@
+<!--pages/my_page/card/card.wxml-->
+
+<image class='card' src='../../../image/my/mingpian.png'></image>
+<view class='anniu'>
+ <image src='../../../image/my/icon.png'></image>
+ <text>点击更换名片</text>
+</view>
+
+
+<view class='bc'>保存</view>

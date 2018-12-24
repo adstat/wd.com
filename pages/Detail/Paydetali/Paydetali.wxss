@@ -1,0 +1,58 @@
+/* pages/Detail/Paydetali/Paydetali.wxss */
+.top_live{
+  background: white;
+  width: 100%;
+  height: 166rpx;
+}
+.top_live>view{
+  /* width: 30%; */
+  text-align: center;
+  margin: 0 auto
+}
+.top_live>view>text:nth-child(1){
+    display: block;
+    font-size: 28rpx;
+    color: #666666;
+    margin-top: 41rpx;
+     margin-bottom: 6rpx; 
+}
+.top_live>view>text:nth-child(2){
+  font-size: 40rpx;
+  /* color:#FF9913 ; */
+  font-weight: bold
+}
+.main_center{
+  /* width: 100%;*/
+  /* height: 306rpx;  */
+  background: white;
+  padding: 30rpx 26rpx 30rpx 26rpx;
+  margin-top: 20rpx;
+}
+.main_center>view{
+  margin-bottom: 27rpx;
+}
+.main_center view image{
+   width:60rpx;
+   height:60rpx;
+   display: inline-block;
+   vertical-align: middle
+}
+.main_center>view>text{
+  font-size: 30rpx;
+  color: #333;
+  font-weight: bold;
+  vertical-align: middle;
+  margin-left: 22rpx;
+}
+.main_center>text{
+  font-size: 30rpx;
+  color:#666;
+  display: block;
+
+}
+.time{
+  display: block;
+  float: right;
+  margin-top: 27rpx;
+  color: #999!important;
+}

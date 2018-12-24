@@ -1,0 +1,57 @@
+#pub {
+				margin-left: 4%;
+				padding-top: 26px;
+				min-height: 80vh;
+			}
+			
+			#pub>div>p {
+				padding: 8px 0;
+			}
+			
+			#pub>div>p>input {
+				padding: 8px 8px;
+				width: 300px;
+				font-size: 14px;
+				border: 1px solid #bbb;
+				border-radius: 6px;
+			}
+			
+			#pub>div>div {
+				margin: 15px 0;
+			}
+			
+			.limits-list:first-child {
+				width: 0;
+			}
+			
+			.limits-list {
+				width: 14%;
+				font-size: 14px;
+			}
+			
+			.ptgl-list {
+				padding-left: 20%;
+				width: 120%;
+				display: none;
+			}
+			
+			.limits-list span {
+				margin-left: 5px;
+			}
+			
+			.ptgl-list li {
+				margin: 10px 0;
+			}
+			
+			.limits-list img {
+				width: 20px;
+			}
+			
+			.pub_p span {
+				width: 85px;
+				display: inline-block;
+			}
+			
+			.pub_p b {
+				font-weight: normal;
+			}

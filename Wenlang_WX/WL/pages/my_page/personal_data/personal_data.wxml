@@ -1,0 +1,94 @@
+<!--pages/my_page/personal_data/personal_data.wxml-->
+<view>
+  <view class='tx_box'>
+    <text>头像</text>
+    <image src='../../../image/viewpoint/cai.png'></image>
+  </view>
+  <view class='xx_box'>
+   <view class='xx_box_1' bindtap='nicname'>
+    <text>昵称</text>
+    <view>
+      <text>宇宙霹雳无敌美少女</text>
+      <image src='../../../image/my/right1.png'></image>
+    </view>
+   </view>
+
+   <view class='xx_box_1' bindtap='ture_name'>
+    <text>真实姓名</text>
+    <view>
+      <text>宇宙霹雳</text>
+      <image src='../../../image/my/right1.png'></image>
+    </view>
+   </view>
+   <view class='xx_box_1'>
+    <text>性别</text>
+    <view>
+      <text>男</text>
+      <image src='../../../image/my/right1.png'></image>
+    </view>
+   </view>
+   <view class='xx_box_1'>
+    <text>电话</text>
+    <view>
+      <text>15138491280</text>
+      <image src='../../../image/my/right1.png'></image>
+    </view>
+   </view>
+   <view class='xx_box_1' bindtap='mail'>
+    <text>邮箱</text>
+    <view>
+      <text>504977208@qq.com</text>
+      <image src='../../../image/my/right1.png'></image>
+    </view>
+   </view>
+
+
+   <view class='xx_box_1 top_box' bindtap='company'>
+    <text>公司</text>
+    <view>
+      <text>四川航空</text>
+      <image src='../../../image/my/right1.png'></image>
+    </view>
+   </view>
+   
+   <view class='xx_box_1' bindtap='work_address'>
+    <text>公司地址</text>
+    <view>
+      <text>银河系</text>
+      <image src='../../../image/my/right1.png'></image>
+    </view>
+   </view>
+
+   <view class='xx_box_1' bindtap='post'>
+    <text>职务</text>
+    <view>
+      <text>扫地</text>
+      <image src='../../../image/my/right1.png'></image>
+    </view>
+   </view>
+
+   <view class='xx_box_1 top_box' bindtap='work_jl'>
+    <text>工作经历</text>
+    <view>
+      <text>3年</text>
+      <image src='../../../image/my/right1.png'></image>
+    </view>
+   </view>
+   <view class='xx_box_1' bindtap='education'>
+    <text>教育经历</text>
+    <view>
+      <text>双系博士后</text>
+      <image src='../../../image/my/right1.png'></image>
+    </view>
+   </view>
+   <view class='xx_box_1' bindtap='card'>
+    <text>名片地图</text>
+    <view>
+      <text>真实</text>
+      <image src='../../../image/my/right1.png'></image>
+    </view>
+   </view>
+  </view>
+</view>
+
+<view class='baoc'>保存</view>

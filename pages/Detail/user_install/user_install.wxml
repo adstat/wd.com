@@ -1,0 +1,347 @@
+<!-- 答主用户设置 -->
+<view style='margin-bottom:21rpx;'>
+  <view class='banner'>
+    <image src='/../images/index/beijing.png'></image>
+  </view>
+
+  <view class='mask_banner'>
+    <text class='iconfont icon-icon-test1' catchtap='share'></text>
+    <view class='main_center'>
+      <image src='/../images/index/cai.png'></image>
+      <image src='/../images/index/nv.png'></image>
+      <image src='/../images/index/nan.png'></image>
+
+      <view style='margin-top: 15rpx;'>易小姐</view>
+      <view class='tit'>
+        <text>中华航运公司</text>
+        <text class='zong'>总经理</text>
+      </view>
+      <view class='com comfore'>
+        <text class='iconfont icon-dianhua'></text>
+        <text>15927063665</text>
+      </view>
+
+      <view class='com'>
+        <text class='iconfont icon-e-mail_icon'></text>
+        <text>178476206@qq.com</text>
+      </view>
+
+
+      <view style='display:block;'>
+        <text class='guanzhu2'>+ 关注</text>
+        <text class='pay'>付费咨询</text>
+      </view>
+
+    </view>
+  </view>
+</view>
+
+<view class='show_num'>
+  <view class='commom_box'>
+    <text>8</text>
+    <text>圈子</text>
+  </view>
+  <view class='commom_box'>
+    <text>23</text>
+    <text>关注</text>
+  </view>
+  <view class='commom_box'>
+    <text>2128</text>
+    <text>粉丝</text>
+  </view>
+  <view class='commom_box'>
+    <text>825</text>
+    <text>获赞</text>
+  </view>
+</view>
+
+<view class='nav_list'>
+  <view class='{{id == 0 ? "active_btn":""}}' data-id='0' catchtap='select'>
+    <text>回答</text>
+    <text>10</text>
+  </view>
+  <view class='{{id == 1 ? "active_btn":""}}' data-id='1' catchtap='select'>
+    <text>问题</text>
+    <text>20</text>
+  </view>
+  <view class='{{id == 2? "active_btn":""}}' data-id='2' catchtap='select'>
+    <text>主题</text>
+    <text>30</text>
+  </view>
+  <view class='{{id == 3? "active_btn":""}}' data-id='3' catchtap='select'>
+    <text>讨论</text>
+    <text>40</text>
+  </view>
+  <view class='{{id == 4? "active_btn":""}}' data-id='4' catchtap='select'>
+    <text>观点</text>
+    <text>50</text>
+  </view>
+</view>
+
+<!-- 回答 -->
+<view class='wrap_big' wx:if='{{nav_active == 0}}'>
+  <view>
+    <view class='all_f'>
+      <text class='p3'>易小姐：燃油是船舶运输不可缺少的生命源泉。航行世界各国的远洋货轮大都以燃油为动力，燃油在船舶消燃油是船舶运输不可缺少的生命源泉？</text>
+
+      <text class='p1'>问题：油价飙升航企“吃得消”吗?</text>
+    </view>
+  </view>
+
+  <!-- 显示图片 -->
+  <view>
+    <view class='all_f'>
+      <text class='p3'>易小姐：燃油是船舶运输不可缺少的生命源泉。航行世界各国的远洋货轮大都以燃油为动力，燃油在船舶消燃油是船舶运输不可缺少的生命源泉？</text>
+      <view>
+        <image src='/../images/index/bj.png'></image>
+        <image src='/../images/index/bj.png'></image>
+      </view>
+
+
+
+      <text class='p1 ques'>问题：油价飙升航企“吃得消”吗?</text>
+    </view>
+  </view>
+</view>
+
+
+<!-- 问题 -->
+<view class='wrap_big' wx:if='{{nav_active == 1}}'>
+
+  <!-- 无图片 -->
+  <view class='index_no_img'>
+    <text class='p1'>中国天然气需求庞大,LNG进口价格会一飞冲</text>
+    <text class='p1'>易小姐：燃油是船舶运输不可缺少的生命源泉不可缺少的生命源泉。</text>
+    <view class='read'>
+      <text>2368人阅读</text>
+      <text style="margin-left: 47rpx">88回答</text>
+    </view>
+  </view>
+
+  <!-- 无图片 -->
+  <view class='index_no_img'>
+    <text class='p2'>中国天然气需求庞大,LNG进口价格会一飞冲天然气一飞冲天然气需求庞大,中国天然气需求庞中国天</text>
+    <text class='p1'>易小姐：燃油是船舶运输不可缺少的生命源泉不可缺少的生命源泉。</text>
+    <view class='read'>
+      <text>2368人阅读</text>
+      <text style="margin-left: 47rpx">88回答</text>
+    </view>
+  </view>
+
+
+  <!-- 右侧有图片 -->
+  <view class='index_center' bindtap='all_go'>
+    <view class='clear'>
+      <text class='f_center p1'>油价飙升航企“吃得消”吗?</text>
+      <text class='fo_center p3 '>易小姐：燃油是船舶运输不可缺少的生命源泉。航行世界各国的远洋货轮大都以燃油为动力，燃油在船舶消航行世界各国的            远洋货 轮大都以燃油为动力，燃油在船舶消燃油在船舶消</text>
+      <image src='/images/index/bj.png' mode='aspectFill' class='myimg'></image>
+    </view>
+    <view class='read reader'>
+      <text>2368人阅读</text>
+      <text style="margin-left: 47rpx">88回答</text>
+    </view>
+  </view>
+
+</view>
+
+<!-- 主题 -->
+<view class='wrap_big' wx:if='{{nav_active == 2}}'>
+
+  <!-- 右侧有图片 -->
+  <view class='index_center' bindtap='all_go'>
+    <view class='clear'>
+      <text class='f_center p1'>油价飙升航企“吃得消”吗?</text>
+      <image src='/images/index/bj.png' mode='aspectFill' class='myimg_t'></image>
+    </view>
+    <view class='read reader'>
+      <text>2368人阅读</text>
+      <text style="margin-left: 47rpx">88回答</text>
+    </view>
+  </view>
+
+  <!-- 无图片 -->
+  <view class='index_no_img'>
+    <text class='p1'>中国天然气需求庞大,LNG进口价格会一飞冲</text>
+    <!-- <text class='p1'>易小姐：燃油是船舶运输不可缺少的生命源泉不可缺少的生命源泉。</text> -->
+    <view class='read'>
+      <text>2368人阅读</text>
+      <text style="margin-left: 47rpx">88回答</text>
+    </view>
+  </view>
+
+  <!-- 无图片 -->
+  <view class='index_no_img'>
+    <text class='p2'>中国天然气需求庞大,LNG进口价格会一飞冲天然气一飞冲天然气需求庞大,中国天然气需求庞中国天</text>
+    <text class='p1'>易小姐：燃油是船舶运输不可缺少的生命源泉不可缺少的生命源泉。</text>
+    <view class='read'>
+      <text>2368人阅读</text>
+      <text style="margin-left: 47rpx">88回答</text>
+    </view>
+  </view>
+
+
+  <!-- 右侧有图片 -->
+  <view class='index_center' bindtap='all_go'>
+    <view class='clear'>
+      <text class='f_center p1'>油价飙升航企“吃得消”吗?</text>
+      <image src='/images/index/bj.png' mode='aspectFill' class='myimg_t'></image>
+    </view>
+    <view class='read reader'>
+      <text>2368人阅读</text>
+      <text style="margin-left: 47rpx">88回答</text>
+    </view>
+  </view>
+
+
+
+</view>
+
+<!-- 讨论 -->
+<view class='wrap_big' wx:if='{{nav_active == 3}}'>
+    <view>
+    <view class='all_f'>
+      <text class='p3'>易小姐：燃油是船舶运输不可缺少的生命源泉。航行世界各国的远洋货轮大都以燃油为动力，燃油在船舶消燃油是船舶运输不可缺少的生命源泉？</text>
+
+      <text class='p1'>主题：油价飙升航企“吃得消”吗?</text>
+    </view>
+  </view>
+  <!-- 显示图片 -->
+  <view>
+    <view class='all_f'>
+      <text class='p3'>易小姐：燃油是船舶运输不可缺少的生命源泉。航行世界各国的远洋货轮大都以燃油为动力，燃油在船舶消燃油是船舶运输不可缺少的生命源泉？</text>
+      <view>
+        <image src='/../images/index/bj.png'></image>
+        <image src='/../images/index/bj.png'></image>
+      </view>
+
+
+
+      <text class='p1 ques'>主题：油价飙升航企“吃得消”吗?</text>
+    </view>
+  </view>
+</view>
+
+<!-- 观点 -->
+<view class='wrap_big' wx:if='{{nav_active == 4}}'>
+<!-- 无标题有图片 -->
+<view class='wrap wrap_two'>
+
+  <view class='wrap_center'>
+    <image src='/../images/index/cai.png'></image>
+    <view class='massages2'>
+      <view class='msg_detail'>
+        <text>冯先生</text>
+        <text>中华航运公司 总经理</text>
+      </view>
+      <text class='timer'>10.21.56</text>
+
+    </view>
+  </view>
+
+  <view class='bewrite'>
+    <text>#国际邮轮#</text>
+    <text style='padding-bottom: 40rpx;'>描述：燃油是船舶运输不可缺少的生命源泉。航行世界各国的远洋货轮大都以燃油为动力，燃油在船舶消燃油是船舶运输不可缺少的生命源泉。航行世界各国的远洋货轮大都以燃油为动力。</text>
+    <view class='images_top'>
+      <image src='/../images/index/bj.png'></image>
+      <image src='/../images/index/bj.png'></image>
+    </view>
+
+    <view class='bottom_style'>
+      <view class='common_icon'>
+        <text class="iconfont icon-zan-copy zan"></text>
+        <!-- <text class="iconfont icon-weibiaoti1-copy zan"></text> -->
+        <text>18</text>
+      </view>
+      <view class='common_icon'>
+        <text class="iconfont icon-star"></text>
+        <text>18</text>
+      </view>
+      <view class='common_icon'>
+        <text class="iconfont icon-zhuanfa"></text>
+        <text>转发</text>
+      </view>
+    </view>
+
+  </view>
+
+</view>
+
+   <!-- 无图片问题详情 -->
+<view class='wrap wrap_two'>
+
+  <view class='wrap_center'>
+    <image src='/../images/index/cai.png'></image>
+    <view class='massages2'>
+      <view class='msg_detail'>
+        <text>冯先生</text>
+        <text>中华航运公司 总经理</text>
+      </view>
+      <text class='timer'>10.21.56</text>
+
+    </view>
+
+  </view>
+
+  <view class='bewrite'>
+    <text>#国际邮轮#</text>
+    <text>描述：燃油是船舶运输不可缺少的生命源泉。航行世界各国的远洋货轮大都以燃油为动力，燃油在船舶消燃油是船舶运输不可缺少的生命源泉。航行世界各国的远洋货轮大都以燃油为动力。</text>
+
+    <view class='bottom_style'>
+      <view class='common_icon'>
+        <text class="iconfont icon-zan-copy zan" data-id='1' wx:if='{{zan == 1}}' bindtap='dianzan'></text>
+        <text class="iconfont icon-weibiaoti1-copy zan" data-id='2' wx:if='{{zan == 2}}' bindtap='dianzan'></text>
+        <text>18</text>
+      </view>
+      <view class='common_icon'>
+        <text class="iconfont icon-star shoucan" data-id='1' wx:if='{{shoucan == 1}}' bindtap='shou'></text>
+        <text class="iconfont icon-shoucang shoucan" data-id='2' wx:if='{{shoucan == 2}}' bindtap='shou'></text>
+        <text>18</text>
+      </view>
+      <view class='common_icon'>
+        <text class="iconfont icon-zhuanfa"></text>
+        <text>转发</text>
+      </view>
+    </view>
+
+  </view>
+</view>
+
+<view class='wrap wrap_two'>
+
+  <view class='wrap_center'>
+    <image src='/../images/index/cai.png'></image>
+    <view class='massages2'>
+      <view class='msg_detail'>
+        <text>冯先生</text>
+        <text>中华航运公司 总经理</text>
+      </view>
+      <text class='timer'>10.21.56</text>
+
+    </view>
+
+  </view>
+
+  <view class='bewrite'>
+    <text>#国际邮轮#</text>
+    <text>描述：燃油是船舶运输不可缺少的生命源泉。航行世界各国的远洋货轮大都以燃油为动力，燃油在船舶消燃油是船舶运输不可缺少的生命源泉。航行世界各国的远洋货轮大都以燃油为动力。</text>
+
+    <view class='bottom_style'>
+      <view class='common_icon'>
+        <text class="iconfont icon-zan-copy zan" data-id='1' wx:if='{{zan == 1}}' bindtap='dianzan'></text>
+        <text class="iconfont icon-weibiaoti1-copy zan" data-id='2' wx:if='{{zan == 2}}' bindtap='dianzan'></text>
+        <text>18</text>
+      </view>
+      <view class='common_icon'>
+        <text class="iconfont icon-star shoucan" data-id='1' wx:if='{{shoucan == 1}}' bindtap='shou'></text>
+        <text class="iconfont icon-shoucang shoucan" data-id='2' wx:if='{{shoucan == 2}}' bindtap='shou'></text>
+        <text>18</text>
+      </view>
+      <view class='common_icon'>
+        <text class="iconfont icon-zhuanfa"></text>
+        <text>转发</text>
+      </view>
+    </view>
+
+  </view>
+</view>
+</view>

@@ -1,0 +1,105 @@
+<!-- 填写资料 -->
+<view class='top_title'>
+  <text class='f_span'>*</text>
+  <text class='s_f'>选择圈子</text>
+  <text class='choose'>（可多选）</text>
+</view>
+
+<view class="comment-btn all_btn clear">
+  <view wx:for="{{riderCommentList}}" wx:for-item="item" wx:key="item.index" bindtap="checkboxChange" data-value="{{item.value}}" data-index="{{index}}" checked="{{item.selected}}" class="btn {{item.selected ? 'btn-selected' : ''}}">
+    {{item.title}}
+  </view>
+</view>
+
+<!-- <view class="all_btn clear">
+  <view class='active_choose'>全部圈子</view>
+  <view >集装箱在</view>
+  <view>沿海散货</view>
+  <view>国际邮轮</view>
+  <view>码头</view>
+  <view>集装箱</view>
+  <view>沿海散货</view>
+  <view>国际邮轮</view>
+</view> -->
+
+<!-- <view class='clear'> -->
+<view class='nic'>
+  <text class='f_span'>*</text>
+  <text class='s_f'>昵称</text>
+  <input placeholder='请输入昵称' />
+</view>
+<view class='nic'>
+  <text class='f_span'>*</text>
+  <text class='s_f'>姓名</text>
+  <input placeholder='请输入您的真实姓名' />
+</view>
+<view class='nic'>
+  <text class='f_span'>*</text>
+  <text class='s_f'>手机号</text>
+  <input placeholder='请输入您的手机号' />
+</view>
+
+
+<view class='nic'>
+  <text class='f_span'>*</text>
+  <text class='s_f'>性别</text>
+
+
+  <radio-group class="radio-group wm" bindchange="radioChange">
+
+    <label class="radio" wx:for="{{items}}">
+
+      <radio value="{{item.name}}" checked="{{item.checked}}" />{{item.value}}
+
+    </label>
+
+  </radio-group>
+
+  <!-- radiogroup 布局 -->
+  <!-- <view class='wm'>
+    <radio-group>
+      <label>
+        <radio></radio>
+        <view></view>
+      </label>
+      <text> 男</text>
+    </radio-group>
+
+    <radio-group>
+      <label>
+        <radio></radio>
+        <view></view>
+      </label>
+      女
+    </radio-group>
+  </view> -->
+
+</view>
+
+
+<view class='nic' style='margin-top:10rpx;'>
+  <text class='f_span'>*</text>
+  <text class='s_f'>公司名称</text>
+  <input placeholder='请输入您的公司名称' />
+</view>
+<view class='nic'>
+  <text class='f_span'>*</text>
+  <text class='s_f'>职位</text>
+  <input placeholder='请输入您的职位' />
+</view>
+<view class='nic'>
+  <text class='f_span'>*</text>
+  <text class='s_f'>工作描述</text>
+  <textarea placeholder='请描述您的工作内容' id='textarea' bindinput="getWords" maxlength='{{maxTextLen}}'></textarea>
+  <text class='num_font'>{{length}}{{textLen}}/{{maxTextLen}}</text>
+</view>
+
+<!-- <view class='wrap_input'>
+      <input placeholder='请描述您的工作内容' bindinput="getWords" maxlength='{{maxTextLen}}'  />
+      <text>{{length}}{{textLen}}/{{maxTextLen}}</text>
+  </view> -->
+
+
+<view>
+  <button class='btn_p check'>确定</button>
+</view>

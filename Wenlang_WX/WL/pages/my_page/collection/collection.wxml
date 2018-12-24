@@ -1,0 +1,133 @@
+<!--pages/my_page/collection/collection.wxml-->
+<view class='tit'>
+  <view><text class="{{currentTab==0?'tit_clear':''}}" data-current="0" bindtap="swichNav">问题</text></view>
+  <view><text class="{{currentTab==1?'tit_clear':''}}" data-current="1" bindtap="swichNav">回答</text></view>
+  <view><text class="{{currentTab==2?'tit_clear':''}}" data-current="2" bindtap="swichNav">主题</text></view>
+  <view><text class="{{currentTab==3?'tit_clear':''}}" data-current="3" bindtap="swichNav">讨论</text></view>
+  <view><text class="{{currentTab==4?'tit_clear':''}}" data-current="4" bindtap="swichNav">观点</text></view>
+</view>
+<view class='box'  current="{{currentTab}}" bindchange="switchTab">
+  <view class='content' wx:if='{{currentTab==0}}'>
+    <view class='boxs'>
+      <view>油价飙升航企“吃得消”吗？</view>
+      <view class='boxs_content'>
+        <text>描述：燃油是船舶运输不可缺少的生命源泉。航行世界各国的远洋货轮大都以燃油为动力，燃油在船舶消...</text>
+        <image mode='aspectFill' src='../../../image/viewpoint/bj.png'></image>
+      </view>
+      <view class='boxs_bottom clear'>
+        <view>9999阅读</view>
+        <view>99回答</view>
+      </view>
+    </view>
+    <view class='boxs'>
+      <view>油价飙升航企“吃得消”吗？</view>
+      <view class='boxs_content'>
+        <text>描述：燃油是船舶运输不可缺少的生命源泉。航行世界各国的远洋货轮大都以燃油为动力，燃油在船舶消...</text>
+        
+      </view>
+      <view class='boxs_bottom clear'>
+        <view>9999阅读</view>
+        <view>99回答</view>
+      </view>
+    </view>
+  </view>
+
+  <view class='content' wx:if='{{currentTab==1}}'>
+    <view class='boxs'>
+      <view class='huida'>匿名用户：燃油是船舶运输不可缺少的生命源泉。航行世界各国的远洋货轮大都以燃油为动力.</view>
+      <view class='huida_img_box clear'>
+        <image class='huida_img' mode='aspectFill' src='../../../image/viewpoint/bj.png'></image>
+        <image class='huida_img' mode='aspectFill' src='../../../image/viewpoint/bj.png'></image>
+      </view>
+      <view class='huada_tit'>问题：油价飙升航企“吃得消”吗?</view>
+    </view>
+    <view class='boxs'>
+      <view class='huida'>匿名用户：燃油是船舶运输不可缺少的生命源泉。航行世界各国的远洋货轮大都以燃油为动力.</view>
+      <view class='huida_img_box clear'>
+        
+      </view>
+      <view class='huada_tit'>问题：油价飙升航企“吃得消”吗?</view>
+    </view>
+  </view>
+  <view class='content' wx:if='{{currentTab==2}}'>
+    <view class='boxs'>
+      <view class='boxs_content boxs_contents'>
+        <view>
+          <view class='zhuti_title'>油价飙升航企“吃得消”吗？</view>
+          <view class='left_zhuti clear'>
+            <view>9999阅读</view>
+            <view>99回答</view>
+          </view>
+        </view>
+        <image class='zhuti_img' mode='aspectFill' src='../../../image/viewpoint/bj.png'></image>
+      </view>
+    </view>
+    <view class='boxs'>
+      <view class='boxs_content boxs_contents'>
+        <view>
+          <view class='zhuti_title'>中国天然气需求庞大,LNG进口价格会一飞冲天中国天然气.,中国天然气需求庞大。</view>
+          <view class='left_zhuti clear'>
+            <view>9999阅读</view>
+            <view>99回答</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='content' wx:if='{{currentTab==3}}'>
+    <view class='boxs'>
+      <view class='huida'>匿名用户：燃油是船舶运输不可缺少的生命源泉。航行世界各国的远洋货轮大都以燃油为动力.</view>
+      <view class='huida_img_box clear'>
+        <image class='huida_img' mode='aspectFill' src='../../../image/viewpoint/bj.png'></image>
+        <image class='huida_img' mode='aspectFill' src='../../../image/viewpoint/bj.png'></image>
+      </view>
+      <view class='huada_tit'>问题：油价飙升航企“吃得消”吗?</view>
+    </view>
+    <view class='boxs'>
+      <view class='huida'>匿名用户：燃油是船舶运输不可缺少的生命源泉。航行世界各国的远洋货轮大都以燃油为动力.</view>
+      <view class='huida_img_box clear'>
+        
+      </view>
+      <view class='huada_tit'>问题：油价飙升航企“吃得消”吗?</view>
+    </view>
+  </view>
+  <view class='content' wx:if='{{currentTab==4}}'>
+    <view class='sort_content'>
+        <view class='sort_content_tit'>
+          <view class='sort_content_tit_left'>
+            <image src='../../../image/viewpoint/cai.png'></image>
+            <view class='xinxi'>
+              <view>
+                <span class="sort_content_name">倩小姐</span>
+                <span class="sort_content_zw">中华航空公司 总经理</span>
+              </view>
+              <view class='time'>18.10.21</view>
+            </view>
+          </view>
+          <image src='../../../image/viewpoint/snh.png'></image>
+        </view>
+        <view class='sort_content_pl '>
+          <span>#国际邮轮#</span>燃油是船舶运输不可缺少的生命源泉。航行世界各国的远洋货轮大都以燃油为动力，燃油在船舶消燃油是船舶运输不可缺少的生命源泉。航行世界各国的远洋货轮大都以燃油为动力。
+          <view class='tupian clear'>
+            <image src='../../../image/viewpoint/bj.png'></image>
+            <image src='../../../image/viewpoint/bj.png'></image>
+          </view>
+        </view>
+
+        <view class='sort_content_cz'>
+          <view class='dz'>
+            <image src='../../../image/viewpoint/dz_1.png'></image>
+            <span>18</span>
+          </view>
+          <view class='dz sc'>
+            <image src='../../../image/viewpoint/sc_1.png'></image>
+            <span>18</span>
+          </view>
+          <view class='dz zf'>
+            <image src='../../../image/viewpoint/zf_1.png'></image>
+            <span>转发</span>
+          </view>
+        </view>
+      </view>
+  </view>
+</view>

@@ -1,0 +1,514 @@
+/* pages/my_page/business_card/business_card.wxss */
+page {
+  background: #f5f5f5;
+  width: 100%;
+  height: 100%;
+}
+.clear:after {
+  content: '';
+  width: 0;
+  height: 0;
+  display: block;
+  clear: both;
+  overflow: hidden;
+}
+
+.head{
+  width: 100%;
+  height: 520rpx;
+  position: relative
+}
+.back_img{
+  width: 100%;
+  height: 520rpx;
+}
+.head_z{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 520rpx;
+  background: rgba(0,0,0,0.7);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+}
+.head_fx{
+  position: absolute;
+  top: 20rpx;
+  right: 28rpx;
+  width: 50rpx;
+  height: 50rpx;
+}
+.head_tx_box{
+  width: 134rpx;
+  height: 134rpx;
+  border-radius: 67rpx;
+  position: relative
+}
+.head_tx{
+  width: 134rpx;
+  height: 134rpx;
+  border-radius: 67rpx;
+  box-sizing: border-box;
+  border: 7rpx solid #626060;
+}
+.xingb{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 32rpx;
+  height: 32rpx;
+}
+.head_name{
+  font-size: 36rpx;
+  color: #FEFEFF;
+  font-weight: bold;
+  margin-top: 20rpx;
+  margin-bottom: 40rpx;
+}
+.head_zhiw{
+  font-size: 24rpx;
+  color: #fff;
+}
+.head_zhiw>text:nth-child(2){
+  margin-left: 22rpx;
+}
+.head_dy{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  margin-top: 20rpx;
+  margin-bottom: 40rpx;
+}
+.head_shouj{
+  width: 26rpx;
+  height: 26rpx;
+  margin-right: 20rpx;
+}
+.head_youx{
+  width: 28rpx;
+  margin-right: 20rpx;
+  height: 28rpx;
+  margin-left: 50rpx;
+}
+.head_dy>text{
+  font-size: 24rpx;
+  color: #fff;
+}
+.head_caoz{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+.head_caoz>text{
+  display: block;
+  color: #fff;
+  font-size: 24rpx;
+  width: 134rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  border-radius: 30rpx;
+  border: 1rpx solid #fff;
+  text-align: center;
+}
+.head_caoz>text:nth-child(2){
+  margin-left: 25rpx;
+}
+.head_fengm{
+  position: absolute;
+  right: 24rpx;
+  bottom: 20rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.head_fengm>image{
+  width: 40rpx;
+  height: 37rpx;
+}
+.head_fengm>text{
+  font-size: 22rpx;
+  color: #fff;
+  padding-left: 9rpx;
+}
+
+
+
+.tit{
+  width: 100%;
+  height: 88rpx;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tit>view{
+  width: 20%;
+  text-align: center;
+  height: 88rpx;
+}
+.tit>view>text{
+  /* border-bottom: 6rpx solid transparent; */
+  line-height: 88rpx;
+  font-size: 28rpx;
+  color: #999;
+  display: inline-block;
+  font-weight: bold;
+}
+.tit_clear{
+  /* border-bottom: 6rpx solid #2577E3!important; */
+  color: #333!important;
+}
+
+.content{
+  width: 100%;
+}
+.boxs{
+  width: 100%;
+  background: #fff;
+  margin-top: 24rpx;
+}
+.boxs>view:nth-child(1){
+  font-size: 36rpx;
+  color: #333;
+  font-weight: bold;
+  padding-top: 37rpx;
+  padding-bottom: 37rpx;
+  margin-left: 27rpx;
+}
+.boxs_content{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  /* width: 100%; */
+  box-sizing: border-box;
+  padding-left: 27rpx;
+  padding-right: 24rpx;
+  padding-bottom: 35rpx;
+}
+.boxs_content>text{
+  font-size: 30rpx;
+  color: #666;
+}
+.boxs_content>image{
+  width: 550rpx;
+  height: 128rpx;
+  border-radius: 12rpx;
+}
+.boxs_bottom{
+  box-sizing: border-box;
+  width: 100%;
+  padding-left: 24rpx;
+  padding-bottom: 32rpx;
+}
+.boxs_bottom>view{
+  float: left;
+  font-size: 25rpx;
+  color: #999;
+}
+.boxs_bottom>view:nth-child(1){
+  margin-right: 47rpx;
+}
+.huida{
+  font-size: 30rpx!important;
+  color: #666!important;
+  font-weight: 400!important;
+  box-sizing: border-box;
+  padding-right: 28rpx;
+}
+.huida_img_box{
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  box-sizing: border-box;
+  padding-bottom: 25rpx;
+  border-bottom: 1rpx solid #e9e9e9;
+}
+.huida_img{
+  width: 190rpx;
+  height: 128rpx;
+  border-radius: 12rpx;
+  float: left;
+  margin-left: 18rpx;
+}
+.huida_img:nth-child(1){
+  margin-left: 0!important;
+}
+.huada_tit{
+  font-size: 28rpx;
+  color: #333;
+  padding-left: 26rpx;
+  font-weight: bold;
+  line-height: 98rpx;
+}
+.zhuti_img{
+  width: 190rpx!important;
+}
+.boxs_contents{
+  padding-left: 0!important;
+}
+.left_zhuti{
+  margin-top: 30rpx;
+}
+.left_zhuti>view{
+  float: left;
+  font-weight: 400!important;
+  font-size: 24rpx!important;
+  color: #999!important;
+}
+.zhuti_title{
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #333;
+}
+
+
+
+
+
+
+.sort_content{
+  width: 100%;
+  background: #fff;
+  box-sizing: border-box;
+  padding: 0 24rpx;
+  margin-bottom: 25rpx;
+}
+.sort_content_tit{
+  width: 100%;
+  height: 70rpx;
+  padding-top: 35rpx;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+}
+.sort_content_tit>image{
+  width: 60rpx;
+  height: 60rpx;
+}
+.sort_content_tit_left>image{
+  width: 70rpx;
+  height: 70rpx;
+  border-radius: 35rpx;
+  float: left;
+}
+.xinxi{
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  margin-left: 17rpx;
+}
+.xinxi>view{
+  line-height: 100%;
+}
+.sort_content_name{
+  font-size: 28rpx;
+  color: #2577E3;
+  line-height: 100%;
+}
+.sort_content_zw{
+  font-size: 22rpx;
+  line-height: 100%;
+  color: #999;
+  margin-left: 17rpx;
+}
+.time{
+  font-size: 22rpx;
+  line-height: 100%;
+  color: #999;
+  margin-top: 6rpx;
+}
+.sort_content_pl>span{
+  color: #FF9913;
+  font-size: 28rpx;
+  padding-right: 20rpx;
+}
+.sort_content_pl{
+  margin-top: 28rpx;
+  padding-bottom: 40rpx;
+  font-size: 30rpx;
+  color: #666;
+  box-sizing: border-box;
+  border-bottom:1rpx solid #e9e9e9;
+  line-height: 50rpx;
+}
+.sort_content_cz{
+  margin: 0 auto;
+  width: 90%;
+  height: 88rpx;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+}
+.dz{
+  display: flex;
+}
+.dz>image{
+  color: #000;
+  width: 38rpx;
+  height: 38rpx;
+}
+.dz>span{
+  font-size: 24rpx;
+  color: #999;
+  line-height: 38rpx;
+  margin-left: 13rpx;
+}
+.sc>image{
+    width: 37rpx;
+    height: 37rpx;
+}
+.zf>image{
+  width: 34rpx;
+  height: 36rpx;
+}
+
+.tupian>image{
+  margin-top: 30rpx;
+  width: 190rpx;
+  height: 128rpx;
+  float: left;
+  margin-right: 15rpx;
+  border-radius: 12rpx;
+}
+
+.release{
+  position: fixed;
+  right: 34rpx;
+  bottom: 234rpx;
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50rpx;
+  background: #2577E3;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+}
+.release>image{
+  width: 35rpx;
+  height: 35rpx;
+}
+.release>view{
+  color: #fff;
+  font-size: 24rpx;
+}
+.tab_contont_3{
+  margin-top: 20rpx;
+  background: #fff;
+  width: 100%;
+}
+.lists{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 36rpx 32rpx;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  border-bottom: 1rpx solid #e9e9e9;
+}
+.paih{
+  color: #FE6261;
+  font-size: 36rpx;
+}
+.nicheng{
+  font-size: 36rpx;
+  color: #333;
+  font-weight: 500;
+  margin-left: 25rpx;
+}
+.zhuany{
+  font-size: 22rpx;
+  color: #FE6261;
+  border: 1rpx solid #FE6261;
+  padding: 0 4rpx;
+  border-radius: 10rpx;
+  margin-left: 15rpx;
+}
+.renshu{
+  font-size: 22rpx;
+  color: #999;
+}
+
+.card_tk{
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.7);
+  position: fixed;
+  top: 0;
+}
+.card_box{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.card_img{
+  width: 100%;
+  height: 927rpx;
+}
+.card_zhez{
+  width: 100%;
+  height: 927rpx;
+  background: rgba(0,0,0,0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+.card_boxs{
+  z-index: 50;
+  width: 100%;
+  height: 80%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+}
+.card_title{
+  font-size: 52rpx;
+  color: #fff;
+  font-weight: bold;
+}
+.card_shouj{
+  font-size: 24rpx;
+  color: #fff;
+}
+.card_youx{
+  font-size: 24rpx;
+  color: #fff;
+}
+.card_ewm{
+  width: 199rpx;
+  height: 199rpx;
+  background: #fff;
+  border-radius: 10rpx;
+  margin-top: 70rpx;
+  margin-bottom: 195rpx;
+}
+.card_baoc{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+.card_baoc>image{
+  width: 33rpx;
+  height: 31rpx;
+}
+.card_baoc>text{
+  font-size: 32rpx;
+  color: #fff;
+  margin-left: 20rpx;
+}
+.card_shouj{
+  margin-top: 28rpx!important;
+  margin-bottom: 28rpx!important;
+}
+.card_title{
+  margin-bottom: 58rpx;
+}

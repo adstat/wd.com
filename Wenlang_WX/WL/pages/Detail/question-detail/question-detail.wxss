@@ -1,0 +1,189 @@
+/* 问题详情 */
+action-sheet-item,action-sheet-cancel{
+  color: #333333;
+}
+page{
+  color: #999999;
+  margin-bottom: 125rpx;
+}
+.wrap{
+  /* height: 828rpx; */
+  background: white;
+    position: relative;
+  padding: 33rpx 24rpx 0rpx 24rpx;
+}
+#IMG{
+  width:48rpx;
+  height:10rpx;
+  float:right;
+  margin-top: 20rpx;
+
+}
+.wrap_center image{
+   width: 70rpx;
+   height: 70rpx;
+}
+.wrap_center{
+  margin-bottom: 39rpx;
+
+}
+.massage,.massages2{
+  position: absolute;
+  top: 25rpx;
+  left: 120rpx;
+}
+.msg_detail{
+  display: inline-block;
+}
+.msg_detail text:nth-child(1){
+  display: inline-block;
+  font-size: 28rpx;
+  color: #2577E3;
+}
+.msg_detail text:nth-child(2){
+  font-size: 22rpx;
+  margin-left: 17rpx
+}
+.timer{
+   display: block;
+   font-size: 22rpx;
+   margin-top: 5rpx;
+}
+ .massage>text:nth-child(1){
+  display: inline-block;
+  font-size: 28rpx;
+  color: #2577E3;
+}
+.massage>text:nth-child(2){
+     display:block;  
+    font-size: 22rpx;
+    margin-top: 5rpx;
+} 
+.guanzhu{
+  width: 134rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  border-radius: 30rpx;
+  background: #F5F5F5;
+  float: right;
+  font-size:26rpx;
+  color: #2476E3;
+  text-align: center
+ }
+.main-f{
+  font-size: 36rpx;
+  color: #333333;
+  font-weight: bold;
+  width: 587rpx;
+  height: 138rpx;
+   display: inline-block;
+  margin-bottom: 20rpx
+}
+
+.main image{
+  width: 48rpx;
+  height: 10rpx;
+  float: right;
+  margin-top: 20rpx;
+}
+.time{
+  font-size:22rpx ;
+  float: right;
+}
+.bewrite{
+  font-size: 30rpx;
+  color: #666;
+  margin-top: 33rpx;
+  /* margin-bottom: 38rpx; */
+  font-family:PingFang-SC-Medium;
+  line-height:25px;
+}
+.images_top{
+  margin-top: 30rpx;
+}
+.bewrite image{
+  width:190rpx ;
+  height:128rpx ;
+  border-radius:12px;
+  margin-right: 15rpx;
+}
+.reader {
+   /* display: inline-block!important; */
+   vertical-align: middle;
+   margin-bottom: 20rpx;
+   padding-bottom: 20rpx;
+}
+.reader text{
+   display: inline-block!important;
+   font-size: 24rpx;
+   margin-top: 10rpx;
+   color:rgba(153,153,153,1);
+}
+.reader>text:nth-child(2){
+   margin-left: 47rpx;
+}
+.write_blue{
+   color: #2577E3;
+   float: right;
+   font-weight:500;
+}
+.write_blue>text:nth-child(2){
+   color: #2577E3; 
+  margin-left:18rpx ;
+}
+
+.answer{
+  width: 100%;
+  height: 71rpx;
+  line-height: 71rpx;
+  font-size:24rpx;
+}
+
+.answer>text:nth-child(1){
+   margin-left: 24rpx;
+   display: inline-block;
+}
+.bottom_style{
+  height: 88rpx;
+  line-height: 88rpx;
+}
+.icon-weibiaoti1-copy,.icon-shoucang{
+  color: red
+}
+.bottom_style{
+  border-top:0.5px solid #E9E9E9;
+  margin-top:20px;
+}
+.bottom_style view{
+  display: inline-block;
+}
+ .bottom_style view:nth-child(2){
+   width: 493rpx;
+   text-align: center;
+} 
+.bottom_style view:nth-child(3){
+   text-align: center;
+} 
+.wrap_two{
+  margin-bottom: 25rpx;
+}
+#mask{
+  height: 100rpx;
+  width: 100rpx;
+  background:rgba(221,221,221,1);
+}
+.h_p{
+  float: right;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.h_p>text:nth-child(2){
+  margin-right: 24rpx;
+  margin-left: 15rpx
+}
+.img_zhan{
+  /* display: inline-block; */
+  float: right;
+  height: 40rpx;
+}

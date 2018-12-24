@@ -1,0 +1,206 @@
+<!-- 圈子回答详情页 -->
+<view class='wrap'>
+
+  <view class='wrap_center'>
+    <image src='/../images/index/cai.png'></image>
+    <view class='massage'>
+      <text>冯先生</text>
+      <text>中华航运公司 总经理</text>
+    </view>
+       <view class='guanzhu'>+关注</view> 
+      <!-- <button class='guanzhu' bindtap='btnClick' > {{btnText}}</button> -->
+  </view>
+
+  <view class='main'>
+    <text class='p3 main-f'>中国天然气需求庞大,LNG进口价格会一天然气需求庞大,中国天然气需求庞中国天然气需求庞中国?</text>
+     <!-- <view class='img_zhan'>
+       
+     </view> -->
+     <image src='/../images/index/dian.png' id="IMG" bindtap='IMG' type="default"></image>
+    <view>
+      <text class='btn'> 国际邮轮</text>
+      <text class='time'>10.10/21</text>
+    </view>
+  </view>
+
+  <view class='bewrite'>
+    <text style='margin-bottom: 38rpx;'>描述：燃油是船舶运输不可缺少的生命源泉。航行世界各国的远洋货轮大都以燃油为动力，燃油在船舶消 燃油是船舶运输不可缺少的生命源泉。航行世界各国的远洋货轮大都以燃油为动力。</text>
+    <view class='images_top'>
+      <image src='/../images/index/bj.png'></image>
+      <image src='/../images/index/bj.png'></image>
+    </view>
+
+    <view class='read reader'>
+      <text>2368人阅读</text>
+      <text>0回答</text>
+      <view class="write_blue" bindtap='write'>
+        <text class="iconfont icon-edit" style='color:#2577E3;'></text>
+        <text>写回答</text>
+      </view>
+    </view>
+  </view>
+
+</view>
+
+<view class='answer'>
+  <text>全部回答（88）</text>
+  <!-- <text>热度排行</text> -->
+    <view class='h_p'>
+      <text bindtap='btnClick'> {{btnText}}</text>
+      <text class='iconfont icon-xialajiantouxiao'></text>
+    </view>  
+</view>
+
+
+<view class='foot'>
+  <view class='foot_f'>
+        <text class="iconfont icon-star" data-id='1' wx:if='{{shoucan2 == 1}}' bindtap='shou2'></text>
+        <text class="iconfont icon-shoucang" data-id='2' wx:if='{{shoucan2 == 2}}' bindtap='shou2'></text>
+      <text>
+          收藏
+      </text>
+  </view>
+  <text>邀请回答</text>
+  <text bindtap='add_answer'>添加回答</text>
+</view>
+
+<!-- 无图片问题详情 -->
+<view class='wrap wrap_two'>
+
+  <view class='wrap_center'>
+    <image src='/../images/index/cai.png'></image>
+    <view class='massages2'>
+      <view class='msg_detail'>
+        <text>冯先生</text>
+        <text>中华航运公司 总经理</text>
+      </view>
+      <text class='timer'>10.21.56</text>
+
+    </view>
+     <image src='/../images/index/dian.png' id="IMG" bindtap='IMG' type="default"></image> 
+  </view>
+
+  <view class='bewrite'>
+    <text style=''>描述：燃油是船舶运输不可缺少的生命源泉。航行世界各国的远洋货轮大都以燃油为动力，燃油在船舶消燃油是船舶运输不可缺少的生命源泉。航行世界各国的远洋货轮大都以燃油为动力。</text>
+
+    <view class='bottom_style'>
+      <view class='common_icon'>
+        <text class="iconfont icon-zan-copy zan" data-id='1' wx:if='{{zan == 1}}' bindtap='dianzan'></text>
+        <text class="iconfont icon-weibiaoti1-copy zan" data-id='2' wx:if='{{zan == 2}}' bindtap='dianzan'></text>
+        <text>18</text>
+      </view>
+      <view class='common_icon'>
+        <text class="iconfont icon-star shoucan" data-id='1' wx:if='{{shoucan == 1}}' bindtap='shou'></text>
+        <text class="iconfont icon-shoucang shoucan" data-id='2' wx:if='{{shoucan == 2}}' bindtap='shou'></text>
+        <text>18</text>
+      </view>
+      <view class='common_icon'>
+        <text class="iconfont icon-zhuanfa"></text>
+        <text>转发</text>
+      </view>
+    </view>
+
+  </view>
+
+
+
+</view>
+
+
+<view class='wrap wrap_two'>
+  <view class='wrap_center'>
+    <image src='/../images/index/cai.png'></image>
+    <view class='massages2'>
+      <view class='msg_detail'>
+        <text>冯先生</text>
+        <text>中华航运公司 总经理</text>
+      </view>
+      <text class='timer'>10.21.56</text>
+
+    </view>
+    <image src='/../images/index/dian.png' id="IMG" bindtap='IMG'></image> 
+
+  </view>
+
+  <view class='bewrite'>
+    <text>燃油是船舶运输不可缺少的生命源泉。。</text>
+
+    <view class='bottom_style'>
+      <view class='common_icon'>
+        <text class="iconfont icon-zan-copy"></text>
+        <text>18</text>
+      </view>
+      <view class='common_icon'>
+        <text class="iconfont icon-star"></text>
+        <text>18</text>
+      </view>
+      <view class='common_icon'>
+        <text class="iconfont icon-zhuanfa"></text>
+        <text>转发</text>
+      </view>
+    </view>
+
+  </view>
+
+</view>
+
+
+
+<!-- 无标题有图片 -->
+<view class='wrap wrap_two'>
+
+  <view class='wrap_center'>
+    <image src='/../images/index/cai.png'></image>
+    <view class='massages2'>
+      <view class='msg_detail'>
+        <text>冯先生</text>
+        <text>中华航运公司 总经理</text>
+      </view>
+      <text class='timer'>10.21.56</text>
+
+    </view>
+     <image src='/../images/index/dian.png' id="IMG" bindtap='IMG'></image> 
+  </view>
+
+  <view class='bewrite'>
+    <text style='padding-bottom: 40rpx;'>描述：燃油是船舶运输不可缺少的生命源泉。航行世界各国的远洋货轮大都以燃油为动力，燃油在船舶消燃油是船舶运输不可缺少的生命源泉。航行世界各国的远洋货轮大都以燃油为动力。</text>
+    <view class='images_top'>
+      <image src='/../images/index/bj.png'></image>
+      <image src='/../images/index/bj.png'></image>
+    </view>
+
+    <view class='bottom_style'>
+      <view class='common_icon'>
+        <text class="iconfont icon-zan-copy zan"></text>
+        <!-- <text class="iconfont icon-weibiaoti1-copy zan"></text> -->
+        <text>18</text>
+      </view>
+      <view class='common_icon'>
+        <text class="iconfont icon-star"></text>
+        <text>18</text>
+      </view>
+      <view class='common_icon'>
+        <text class="iconfont icon-zhuanfa"></text>
+        <text>转发</text>
+      </view>
+    </view>
+
+  </view>
+
+</view>
+
+<!-- <action-sheet hidden="{{actionSheetHidden}}" bindchange="actionSheetbindchange">
+    <block wx:for-items="{{actionSheetItems}}">
+        <action-sheet-item bindtap="bind{{item.bindtap}}">{{item.txt}}</action-sheet-item>
+    </block>
+    <action-sheet-cancel class="cancel">取消</action-sheet-cancel>
+</action-sheet> -->
+
+<action-sheet hidden="{{actionSheetHidden}}" bindchange="actionSheetbindchange">
+    <block>
+        <action-sheet-item bindtap="shoucang">收藏</action-sheet-item>
+        <action-sheet-item bindtap="jubao">举报</action-sheet-item>
+    </block>
+    <action-sheet-cancel class="cancel">取消</action-sheet-cancel>
+</action-sheet>
+<!-- <view id="mask"></view> -->
